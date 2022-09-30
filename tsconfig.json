@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "build/dist",
-    "module": "commonjs",
+    "module": "ES6",
     "target": "es5",
     "lib": ["es6", "dom"],
     "sourceMap": true,
@@ -12,19 +12,11 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src/*.ts", "src/*/*.tsx"],
-  "exclude": [
-    "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
-  ],
-  "types": [
-    "typePatches"
-  ]
+  "include": ["src/*.tsx", "src/*/*.tsx"],
+  "exclude": ["node_modules"],
+  "types": ["typePatches"]
 }

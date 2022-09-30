@@ -19,10 +19,8 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "linebreak-style": ["error", "windows"],
     "quotes": ["error", "single"],
-    "react/react-in-jsx-scope": "off",
-    "semi": ["error", "always"]
+    "react/react-in-jsx-scope": "off"
   },
   "prettier/prettier": [
     "error",
