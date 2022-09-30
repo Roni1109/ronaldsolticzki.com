@@ -6,7 +6,7 @@ const App = () => {
     <div className='App'>
       TEST
       <h1>Hello</h1>
-      <Button color={'red'} />        
+      <Button color={'red'} />
     </div>
   )
 }
