@@ -1,12 +1,10 @@
 import React from 'react'
-import Button from './components/Button'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div className='App'>
-      TEST
-      <h1>Hello</h1>
-      <Button color={'red'} />
+      <Navbar />
     </div>
   )
 }
