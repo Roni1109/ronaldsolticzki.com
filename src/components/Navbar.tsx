@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
- const Navbar = () =>{
-   return(
+const Navbar = () => {
+  return (
     <ul>
       <li>About</li>
       <li>Portfolio</li>
@@ -15,6 +15,5 @@ import styled from 'styled-components'
 const NavbarStyled = styled.nav`
   background: blue;
 `
-
 
 export default Navbar
