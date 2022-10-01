@@ -13,7 +13,7 @@ import styled from 'styled-components'
 
 // Styled Components
 const NavbarStyled = styled.nav`
-  background: red;
+  background: blue;
 `
 
 
