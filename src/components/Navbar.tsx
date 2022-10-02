@@ -3,17 +3,19 @@ import styled from 'styled-components'
 
 const Navbar = () => {
   return (
+    <Styled_Navbar>
     <ul>
-      <li>About</li>
-      <li>Portfolio</li>
-      <li>Learning Process</li>
+      <li><a href="">About</a></li>
+      <li><a href="">Portfolio</a></li>
+      <li><a href="">Learning Process</a></li>
     </ul>
+    </Styled_Navbar>
   )
+  
 }
 
 // Styled Components
-const NavbarStyled = styled.nav`
-  background: blue;
+const Styled_Navbar = styled.nav`
 `
 
 export default Navbar
