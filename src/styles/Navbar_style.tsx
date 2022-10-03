@@ -15,7 +15,10 @@ color: #ffffff;
 text-decoration: none;
 font-weight: 800;
 font-size: 1.7rem;
-
+&:hover{
+  color: #e6ae92;
+  transition: 0.2s all ease-in;
+}
 `; 
 
 export const Hamburger = styled.div`

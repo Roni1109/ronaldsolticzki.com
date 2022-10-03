@@ -5,7 +5,7 @@ const Global_Style = createGlobalStyle`
         margin: 0;
         padding: 0;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #161925;
+        background-color: #2E3138;
     }
 `
 
