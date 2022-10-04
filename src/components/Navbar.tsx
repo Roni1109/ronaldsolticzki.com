@@ -40,14 +40,15 @@ const Styled_Nav = styled.div`
 
 const Styled_Logo = styled.a`
   padding: 0.5rem 0rem;
-  color: #ffffff;
+  color: #e6e6e6d2;
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
 
   &:hover {
-    color: #e6ae92;
-    transition: 0.2s all ease-in;
+    color:	#F7B74E;
+    opacity: 0.4;
+    transition: 0.3ms all ease-in;
   }
 `
 

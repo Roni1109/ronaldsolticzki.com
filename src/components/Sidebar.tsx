@@ -9,10 +9,10 @@ const Sidebar = () => {
     <Styled_Sidebar>
       <FaIcons.FaGripLines />
       <Styled_Menu>
-        <h6>Home</h6>
-        <h6>About</h6>
-        <h6>Ronald</h6>
-        <h6>Contact</h6>
+        <h6>HOME</h6>
+        <h6>ABOUT</h6>
+        <h6>PORTFOLIO</h6>
+        <h6>LEARNING PROCESS</h6>
       </Styled_Menu>
     </Styled_Sidebar>
   )
@@ -23,6 +23,7 @@ const Styled_Sidebar = styled.nav`
   padding: 2rem 1rem;
   height: 100%;
   position: fixed;
+  line-height: 100px;
 
   @media screen and (min-width: 768px) {
     display: none;

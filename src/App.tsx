@@ -3,10 +3,10 @@ import Navbar from "./components/Navbar"
 import GlobalStyle from "./Utility/GlobalStyle"
 
 // Routing
-// import { Routes, Route, useLocation } from "react-router-dom"
+import { Routes, Route, useLocation } from "react-router-dom"
 
 const App = () => {
-  // const location = useLocation()
+  const location = useLocation()
   return (
     <>
       <Navbar />
