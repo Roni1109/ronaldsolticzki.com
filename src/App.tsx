@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "./components/Navbar"
+import About from "./pages/About"
 import GlobalStyle from "./Utility/GlobalStyle"
 
 // Routing
@@ -11,11 +12,9 @@ const App = () => {
     <>
       <Navbar />
       <GlobalStyle />
-      {/* <Routes location={location} key={location.pathname}>
-        <Route path='/about' exact element={
-        // Component comes here
-        }></Route>
-      </Routes> */}
+      {<Routes location={location} key={location.pathname}>
+        <Route path='/about' element={<About />} />
+      </Routes> }
     </>
   )
 }
