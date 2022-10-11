@@ -12,12 +12,13 @@ import { Routes, Route, useLocation } from "react-router-dom"
 
 const App = () => {
   const location = useLocation()
+
   return (
     <>
       <Navbar />
       <GlobalStyle />
-      <Main_Page />
       {<Routes location={location} key={location.pathname}>
+        <Route path='/' element={<Main_Page />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/learning_process' element={<Process />} />
@@ -25,6 +26,6 @@ const App = () => {
       </Routes> }
     </>
   )
-}
+  }
 
 export default App

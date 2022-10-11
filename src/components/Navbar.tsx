@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import img1 from '../img/logo.png'
 
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"

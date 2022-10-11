@@ -33,8 +33,10 @@ const Styled_Container_Cards = styled.div`
     padding: 30px 50px;
     img{
         height: 230px;
+        filter: grayscale(50%);
         &:hover{
             height: 250px;
+            filter: grayscale(0%);
         }
     }
     h4{
@@ -45,19 +47,16 @@ const Styled_Container_Cards = styled.div`
     .column-1{
         width: 33%;
         height: 340px;
-        border: 2px solid black;
         text-align: center;
     }
     .column-2{
         width: 33%;
         height: 340px;
-        border: 2px solid black;
         text-align: center;
     }
     .column-3{
         width: 33%;
         height: 340px;
-        border: 2px solid black;
         text-align: center;
     }
 `
