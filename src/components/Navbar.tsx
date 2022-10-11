@@ -4,7 +4,6 @@ import styled from "styled-components"
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
 import Sidebar from "./Sidebar"
-import { logRoles } from "@testing-library/react"
 
 const Navbar = () => {
   return (
@@ -17,9 +16,9 @@ const Navbar = () => {
         </Styled_Logo>
         <Styled_Menu>
           <MenuLink href='/about'>About</MenuLink>
-          <MenuLink href=''>Portfolio</MenuLink>
-          <MenuLink href=''>Learning process</MenuLink>
-          <MenuLink href=''>Education</MenuLink>
+          <MenuLink href='/portfolio'>Portfolio</MenuLink>
+          <MenuLink href='/learning_process'>Learning process</MenuLink>
+          <MenuLink href='/education'>Education</MenuLink>
         </Styled_Menu>
       </Styled_Nav>
     </>
@@ -32,7 +31,7 @@ const Styled_Nav = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0f1f24;
+  background: #94B49F;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -40,13 +39,13 @@ const Styled_Nav = styled.div`
 
 const Styled_Logo = styled.a`
   padding: 0.5rem 0rem;
-  color: #e6e6e6d2;
+  color: #000;
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
 
   &:hover {
-    color:	#F7B74E;
+    color:	#e2dfd8;
     opacity: 0.4;
     transition: 0.3ms all ease-in;
   }

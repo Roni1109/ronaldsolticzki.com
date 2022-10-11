@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background: rgb(24,24,24)      
+        background: #e2dfd8;
     }
 
     h1 {
@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     }
     
     h3 {
-        font-size:2.5rem;
+        font-size:2rem;
         line-height: 1rem;
         letter-spacing: 1px;
         font-weight: 500;
@@ -51,12 +51,12 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h6 {
-      font-size: 1.15rem;
-      letter-spacing: 0px;
-      font-weight: 500;
+      font-size: 1.2rem;
+      letter-spacing: 1.3px;
+      font-weight: 600;
       font-style: normal;
-    }
-
+    } 
+    
     p {
       font-size: 1rem;
       letter-spacing: 1px; 
