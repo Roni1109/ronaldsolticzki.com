@@ -10,14 +10,16 @@ import {faChartLine, faMusic, faGamepad,faCamera, faEnvelope,} from '@fortawesom
 const About = ()=>{
     return(
         <Styled_Container>
-            <h2>Ronald</h2>
-            <h2>Solticzki</h2>
-            <h3>QUALITY ASSURANCE</h3>
+            <Styled_TitleContainer>
+            <Styled_Title>Ronald</Styled_Title>
+            <Styled_Position>QUALITY ASSURANCE</Styled_Position>
+            <Styled_Title>Solticzki</Styled_Title>
+            </Styled_TitleContainer>
 
             <Styled_SocialMedia>
-            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+            <FontAwesomeIcon className="linkedIn" icon={faLinkedin}></FontAwesomeIcon>
+            <FontAwesomeIcon className="gitHub" icon={faGithub}></FontAwesomeIcon>
+            <FontAwesomeIcon className="envelope" icon={faEnvelope}></FontAwesomeIcon>
             </Styled_SocialMedia>
 
             <h3 className="AboutTitle">A few words about me</h3>
@@ -39,19 +41,28 @@ const About = ()=>{
 
 const Styled_SocialMedia = styled.div`
     font-size: 60px;
-padding: 20px 20px;
-margin: 20px;
-display: flex;
-justify-content: flex-end;
-color: #ffa600;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffa600;
+    .linkedIn{
+        padding: 20px;
+        cursor: pointer;
+    }
+    .gitHub{
+        padding: 20px;
+    }
+    .envelope{
+        padding: 20px;
+    }
 `
 
 const Styled_HobbyIcons = styled.div`
 font-size: 60px;
 padding: 20px;
 margin: 20px;
-display: flex;
-justify-content: space-between;
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
 color: #ffa600;
 `
 
@@ -65,6 +76,8 @@ const Styled_HobbyTitle = styled.div`
 
 const Styled_Container = styled.div`
     color: #A6A6A6;
+    text-align: center;
+    padding: 20px 0px;
     span{
       color: #ffa600;
     }
@@ -74,6 +87,26 @@ const Styled_Container = styled.div`
         padding: 20px;
     }
 
+`
+
+const Styled_Title = styled.h2`
+    padding: 15px;
+    line-height: 1.6rem;
+    padding-top: 20px;
+    width: 50%;
+`
+const Styled_TitleContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+`
+
+const Styled_Position = styled.h3`
+    justify-content: flex-end;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 50%;
+       
 `
 
 export default About

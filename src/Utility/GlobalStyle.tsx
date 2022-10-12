@@ -22,8 +22,8 @@ const GlobalStyle = createGlobalStyle`
     }
    
     h2 {
-        font-size: 3rem;
-        font-weight: 600;
+        font-size: 2.5rem;
+        font-weight: 500;
         letter-spacing: 1px;
     }
     

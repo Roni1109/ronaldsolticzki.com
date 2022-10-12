@@ -6,13 +6,12 @@ import Process from "./pages/LearningProcess"
 import Education from "./pages/Education"
 import MainPage from './pages/MainPage'
 import GlobalStyle from "./Utility/GlobalStyle"
-
 // Routing
 import { Routes, Route, useLocation } from "react-router-dom"
 
+
 const App = () => {
   const location = useLocation()
-
   return (
     <>
       <Navbar />

@@ -53,8 +53,7 @@ const Styled_MyDescription = styled.h6`
         margin-left: 350px;
         padding-top: 120px;
         width: 40%;
-        color: #A6A6A6;
-    
+        color: #A6A6A6; 
 `
 export default Main_Page
 
