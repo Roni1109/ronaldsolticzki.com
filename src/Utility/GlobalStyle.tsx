@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background: #e2dfd8;
+        background: #191919;
     }
 
     h1 {
@@ -58,9 +58,9 @@ const GlobalStyle = createGlobalStyle`
     } 
     
     p {
-      font-size: 1rem;
-      letter-spacing: 1px; 
-      font-weight: 400;
+      font-size: 1.2rem;
+      letter-spacing: 1.2px; 
+      font-weight: 500;
       font-style: normal;
     }
 `

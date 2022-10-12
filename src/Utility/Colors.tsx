@@ -5,7 +5,7 @@ export const primary_color_tint_2 = "#686565 "
 export const primary_color_tint = "#413f3f "
 export const primary_color = "rgb(24,24,24) "
 export const primary_color_shadow = "#272525 "
-export const primary_color_shadow_2 = "#1a1717"
+export const primary_color_shadow_2 = "#A6A6A6"
 export const secondary_color = "#000"
 export const accent_color = "#"
 

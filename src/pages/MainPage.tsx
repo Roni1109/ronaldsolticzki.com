@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from '../img/ProfilePic.png'
 import styled from "styled-components";
-import Cards from '../components/Learning_Cards'
+import Cards from '../components/LearningCards'
 
 const Main_Page= ()=>{
 
@@ -9,7 +9,7 @@ const Main_Page= ()=>{
         <Styled_Container>
         <Styled_ProfileIMG src={img1} alt="" />
         <Styled_MyDescription className="AboutMe"> My name is Ronald, I am 22 years old and I live in Romania. I am in my second year of university at Management profile. I am addicted to learn programming, this addiction started when I finished the Software Testing course and I started to test a portfolio website for my friend. </Styled_MyDescription>
-        <Styled_ReadMoreBTN href="/about">READ MORE</Styled_ReadMoreBTN>
+        <Styled_ReadMoreBTN href="/about">FIND MORE ABOUT ME</Styled_ReadMoreBTN>
         <Cards />
         </Styled_Container>
     )
@@ -17,17 +17,17 @@ const Main_Page= ()=>{
 
 const Styled_ReadMoreBTN = styled.a`
     text-decoration: none;
-    color: #f4f4f4;
+    color: #000;
     position: absolute;
-    background-color: #000;
+    background-color: #ffa600;
     border-radius: 50px;
     font-size: 23px;
     padding: 6px;
-    margin-left: 680px;
+    margin-left: 610px;
     margin-top: 340px;
     &:hover{
-        background: #94B49F;
-        color: #e6e6e6d2
+        background: #fff;
+        color: #ffa600;
     }
 `
 
@@ -43,6 +43,7 @@ const Styled_ProfileIMG = styled.img`
     display: inline-block;
     justify-content: center;
     text-align: center;
+    border: 3px solid orange;
 `
 
 const Styled_MyDescription = styled.h6`
@@ -52,6 +53,7 @@ const Styled_MyDescription = styled.h6`
         margin-left: 350px;
         padding-top: 120px;
         width: 40%;
+        color: #A6A6A6;
     
 `
 export default Main_Page

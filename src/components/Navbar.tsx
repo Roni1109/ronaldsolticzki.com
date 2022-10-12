@@ -18,7 +18,7 @@ const Navbar = () => {
         <Styled_Menu>
           <MenuLink href='/about'>About</MenuLink>
           <MenuLink href='/portfolio'>Portfolio</MenuLink>
-          <MenuLink href='/learning_process'>Learning process</MenuLink>
+          <MenuLink href='/learning-process'>Learning process</MenuLink>
           <MenuLink href='/education'>Education</MenuLink>
         </Styled_Menu>
       </Styled_Nav>
@@ -32,7 +32,7 @@ const Styled_Nav = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #94B49F;
+  background: #000000;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -40,16 +40,15 @@ const Styled_Nav = styled.div`
 
 const Styled_Logo = styled.a`
   padding: 0.5rem 0rem;
-  color: #000;
+  color: #ffa600;
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
-
-  &:hover {
+    &:hover {
     color:	#e2dfd8;
     opacity: 0.4;
     transition: 0.3ms all ease-in;
-  }
+    }
 `
 
 //  const Hamburger = styled.div`
@@ -81,16 +80,14 @@ const MenuLink = styled.a`
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-
   color: ${primary_color_shadow_2};
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-
   height: 100%;
   transition: all 200ms ease-in-out;
   &:hover {
-    color: #e6e6e6d2;
+    color: #ffa600;
   }
 `
 
