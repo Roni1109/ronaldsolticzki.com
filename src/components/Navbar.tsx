@@ -32,7 +32,7 @@ const Styled_Nav = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #000000;
+  background: #111010;
   @media screen and (max-width: 768px) {
     display: none;
   }

@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background: #191919;
+        background: #202020;
     }
 
     h1 {
