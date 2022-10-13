@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import img1 from '../img/logo.png'
+import img1 from "../img/logo.png"
 
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
@@ -29,9 +29,11 @@ const Navbar = () => {
 // Styled Components
 const Styled_Nav = styled.div`
   padding: 0.5rem 2rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   background: #111010;
   @media screen and (max-width: 768px) {
     display: none;
@@ -44,11 +46,11 @@ const Styled_Logo = styled.a`
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
-    &:hover {
-    color:	#e2dfd8;
+  &:hover {
+    color: #e2dfd8;
     opacity: 0.4;
     transition: 0.3ms all ease-in;
-    }
+  }
 `
 
 //  const Hamburger = styled.div`

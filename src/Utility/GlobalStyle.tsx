@@ -53,14 +53,14 @@ const GlobalStyle = createGlobalStyle`
     h6 {
       font-size: 1.2rem;
       letter-spacing: 1.3px;
-      font-weight: 600;
+      font-weight: 500;
       font-style: normal;
     } 
     
     p {
       font-size: 1.2rem;
       letter-spacing: 1.2px; 
-      font-weight: 500;
+      font-weight: 300;
       font-style: normal;
     }
 `
