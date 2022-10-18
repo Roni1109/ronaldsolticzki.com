@@ -37,7 +37,7 @@ const GlobalStyle = createGlobalStyle`
 
     h4 {
       font-size: 2rem;
-      line-height: 1rem;
+      line-height: 2rem;
       letter-spacing: 0px;   
       font-weight: 400;
       font-style: normal;
@@ -55,6 +55,8 @@ const GlobalStyle = createGlobalStyle`
       letter-spacing: 1.3px;
       font-weight: 500;
       font-style: normal;
+      font-family: 'Neonderthaw', cursive;
+
     } 
     
     p {

@@ -1,13 +1,17 @@
 // Creating 3 colors for your color scheme, each color
 // has 4 variations, 2 tints and 2 shadows
 
-export const primary_color_tint_2 = "#686565 "
-export const primary_color_tint = "#413f3f "
-export const primary_color = "rgb(24,24,24) "
-export const primary_color_shadow = "#272525 "
-export const primary_color_shadow_2 = "#A6A6A6"
-export const secondary_color = "#000"
-export const accent_color = "#"
+export const secondary_color_tint_2 = "#dfb1fa"
+export const secondary_color_tint = "#ce9ceb"
+export const primary_color = "#af26ff"
+export const primary_color_shadow = "#9a13e9"
+export const primary_color_shadow_2 = "#8a0ad4"
+export const primary_color_shadow_3 = "#6e0ca7"
+
+export const secondary_color = "#fff"
+export const secondary_color_2 = "#c4bbbb"
+
+export const accent_color = "#c0dd19"
 
 
 // Light Mode Colors
@@ -17,5 +21,23 @@ export const primary_color_light = '#D6CDA4';
 export const primary_color_light_shadow = '#c0b480';
 export const primary_color_light_shadow_2 = '#99916e';
 
+
 // Navbar color
+export const Navbar_color_light_tint_2 ="#24414a;"
+export const Navbar_color_light_tint ="#162f36;"
 export const Navbar_color ="#0f1f24;"
+export const Navbar_color_shadow ="#09181d;"
+export const Navbar_color_shadow_2 ="#07161b;"
+
+
+
+
+
+
+
+
+
+
+
+
+

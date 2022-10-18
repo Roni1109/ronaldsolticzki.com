@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
-import Process from "./pages/LearningProcess"
+import Contact from "./pages/Contact"
 import Education from "./pages/Education"
 import MainPage from './pages/MainPage'
 import GlobalStyle from "./Utility/GlobalStyle"
@@ -20,7 +20,7 @@ const App = () => {
         <Route path='/' element={<MainPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/learning-process' element={<Process />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/education' element={<Education />} />
       </Routes> }
     </>

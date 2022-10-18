@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import img1 from "../img/logo.png"
+import {primary_color} from "../Utility/Colors"
+import {secondary_color_tint} from "../Utility/Colors"
 
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
@@ -18,8 +20,7 @@ const Navbar = () => {
         <Styled_Menu>
           <MenuLink href='/about'>About</MenuLink>
           <MenuLink href='/portfolio'>Portfolio</MenuLink>
-          <MenuLink href='/learning-process'>Learning process</MenuLink>
-          <MenuLink href='/education'>Education</MenuLink>
+          <MenuLink href='/contact'>Contact</MenuLink>
         </Styled_Menu>
       </Styled_Nav>
     </>
@@ -27,14 +28,18 @@ const Navbar = () => {
 }
 
 // Styled Components
-const Styled_Nav = styled.div`
-  padding: 0.5rem 2rem;
 
+
+const Styled_Nav = styled.div`
+  z-index: 2;
+  position: sticky;
+  padding: 0.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #082a35;
+  opacity: 0.9;
 
-  background: #111010;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -42,12 +47,12 @@ const Styled_Nav = styled.div`
 
 const Styled_Logo = styled.a`
   padding: 0.5rem 0rem;
-  color: #ffa600;
+  color: ${primary_color};
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
   &:hover {
-    color: #e2dfd8;
+    color: #fff;
     opacity: 0.4;
     transition: 0.3ms all ease-in;
   }
@@ -79,17 +84,18 @@ const Styled_Menu = styled.div`
 
 const MenuLink = styled.a`
   padding: 0rem 1rem;
+  font-family: 'Pacifico', cursive;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  color: ${primary_color_shadow_2};
+  color: ${primary_color};
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   height: 100%;
   transition: all 200ms ease-in-out;
   &:hover {
-    color: #ffa600;
+    color: ${secondary_color_tint};
   }
 `
 
