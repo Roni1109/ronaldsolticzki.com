@@ -1,14 +1,25 @@
-import React from "react"
+import React, { useState, Fragment } from "react"
 import styled from "styled-components"
 import img1 from "../img/logo.png"
 import {primary_color} from "../Utility/Colors"
 import {secondary_color_tint} from "../Utility/Colors"
+import { accent_color } from "../Utility/Colors"
 
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
 import Sidebar from "./Sidebar"
 
 const Navbar = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
     <>
       <Sidebar />
@@ -37,23 +48,27 @@ const Styled_Nav = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #082a35;
-  opacity: 0.9;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  background-color: transparent;
+    @media screen and (max-width: 768px) {
+     display: none;
+    }
 
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `
 
 const Styled_Logo = styled.a`
   padding: 0.5rem 0rem;
-  color: ${primary_color};
+  display: flex;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 2rem;
   &:hover {
-    color: #fff;
-    opacity: 0.4;
+    color: ${accent_color};
     transition: 0.3ms all ease-in;
   }
 `
@@ -84,18 +99,17 @@ const Styled_Menu = styled.div`
 
 const MenuLink = styled.a`
   padding: 0rem 1rem;
-  font-family: 'Pacifico', cursive;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  color: ${primary_color};
   font-weight: bold;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   height: 100%;
   transition: all 200ms ease-in-out;
   &:hover {
-    color: ${secondary_color_tint};
+    color: ${accent_color};
   }
 `
 

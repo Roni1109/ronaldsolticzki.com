@@ -2,8 +2,8 @@
 // has 4 variations, 2 tints and 2 shadows
 
 export const secondary_color_tint_2 = "#dfb1fa"
-export const secondary_color_tint = "#ce9ceb"
-export const primary_color = "#af26ff"
+export const secondary_color_tint = "#fac656"
+export const primary_color = "#e0a016"
 export const primary_color_shadow = "#9a13e9"
 export const primary_color_shadow_2 = "#8a0ad4"
 export const primary_color_shadow_3 = "#6e0ca7"
@@ -11,7 +11,7 @@ export const primary_color_shadow_3 = "#6e0ca7"
 export const secondary_color = "#fff"
 export const secondary_color_2 = "#c4bbbb"
 
-export const accent_color = "#c0dd19"
+export const accent_color = "#ff5300"
 
 
 // Light Mode Colors

@@ -1,29 +1,37 @@
 import React, { Component } from 'react'
 import  { BiBitcoin, BiMoviePlay } from "react-icons/bi";
-import { AiOutlineLineChart } from "react-icons/ai";
 import { ImMusic } from "react-icons/im";
 import { GiConsoleController } from "react-icons/gi";
 import { RiBoxingFill } from "react-icons/ri";
 import styled from 'styled-components';
+import { AiFillPhone, AiFillLinkedin, AiFillMail, AiOutlineLineChart, AiOutlineDownload } from "react-icons/ai";
 
-const Icons = () => {
+// export const DownloadSign = <AiOutlineDownload/>
+// export const AiFillPhone = <AiFillPhone/>
+// export const AiFillLinkedin = <AiFillLinkedin/>
+// export const AiFillMail = <AiFillMail/>
+
+const DownloadSign = () => {
     return(
-        <>
-       <Styled_Icons> <BiBitcoin />           </Styled_Icons>
-       <Styled_Icons> <AiOutlineLineChart />  </Styled_Icons>
-       <Styled_Icons> <ImMusic />             </Styled_Icons>
-       <Styled_Icons> <GiConsoleController /> </Styled_Icons>
-       <Styled_Icons> <BiMoviePlay />         </Styled_Icons>
-       <Styled_Icons> <RiBoxingFill />        </Styled_Icons>
-       </>
+        <AiOutlineDownload/>
     )
-};
+}
 
-const Styled_Icons = styled.div`
-    padding: 3px;
-`
+const Mail = () => {
+    return(
+        <AiFillMail/>
+    )
+}
+const Phone = () => {
+    return(
+        <AiFillPhone/>
+    )
+}
+const LinkedIN = () => {
+    return(
+        <AiFillLinkedin/>
+    )
+}
 
+export { DownloadSign, Mail, Phone, LinkedIN}
 
-
-
-export default Icons

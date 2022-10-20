@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         /* Here you add font family */
-        font-family: 'exo-soft', Helvetica, sans-serif;
+        font-family: 'Exo-soft', sans-serif;
     }
 
     body{
@@ -60,8 +60,8 @@ const GlobalStyle = createGlobalStyle`
     } 
     
     p {
-      font-size: 1.2rem;
-      letter-spacing: 1.2px; 
+      font-size: 1.3rem;
+      letter-spacing: 1.3px; 
       font-weight: 300;
       font-style: normal;
     }
