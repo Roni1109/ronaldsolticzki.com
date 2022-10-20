@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
     h1 {
         font-size: 3.75rem;
-        line-height: 1rem;
+        line-height: 5rem;
         letter-spacing: 2px;
         font-weight: 600;
     }
@@ -55,7 +55,6 @@ const GlobalStyle = createGlobalStyle`
       letter-spacing: 1.3px;
       font-weight: 500;
       font-style: normal;
-      font-family: 'Neonderthaw', cursive;
 
     } 
     

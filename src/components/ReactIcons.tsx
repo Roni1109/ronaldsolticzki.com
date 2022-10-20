@@ -1,37 +1,30 @@
-import React, { Component } from 'react'
-import  { BiBitcoin, BiMoviePlay } from "react-icons/bi";
-import { ImMusic } from "react-icons/im";
-import { GiConsoleController } from "react-icons/gi";
-import { RiBoxingFill } from "react-icons/ri";
-import styled from 'styled-components';
-import { AiFillPhone, AiFillLinkedin, AiFillMail, AiOutlineLineChart, AiOutlineDownload } from "react-icons/ai";
+import React from "react"
 
-// export const DownloadSign = <AiOutlineDownload/>
-// export const AiFillPhone = <AiFillPhone/>
-// export const AiFillLinkedin = <AiFillLinkedin/>
-// export const AiFillMail = <AiFillMail/>
+import {
+  AiFillPhone,
+  AiFillLinkedin,
+  AiFillMail,
+  AiOutlineDownload,
+} from "react-icons/ai"
 
-const DownloadSign = () => {
-    return(
-        <AiOutlineDownload/>
-    )
+type Props = {
+  type: string
+  size: number
 }
 
-const Mail = () => {
-    return(
-        <AiFillMail/>
-    )
-}
-const Phone = () => {
-    return(
-        <AiFillPhone/>
-    )
-}
-const LinkedIN = () => {
-    return(
-        <AiFillLinkedin/>
-    )
+const ReactIcons = ({ type, size }: Props) => {
+  switch (true) {
+    case type === "download":
+      return <AiOutlineDownload size={size} />
+    case type === "mail":
+      return <AiFillMail size={size} />
+    case type === "linkedin":
+      return <AiFillLinkedin size={size} />
+    case type === "phone":
+      return <AiFillPhone size={size} />
+    default:
+      return <span>NO ICONS</span>
+  }
 }
 
-export { DownloadSign, Mail, Phone, LinkedIN}
-
+export default ReactIcons
