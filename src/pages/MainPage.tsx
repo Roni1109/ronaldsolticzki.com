@@ -3,7 +3,7 @@ import { useRef } from "react"
 import styled from "styled-components"
 import { accent_color, primary_color, secondary_color_tint } from "../Utility/Colors"
 import bg from '../img/BGillustration.png'
-import MyKnowledge from "./MyKnowledge"
+import MyKnowledge from "./MySkills"
 import About from "./About"
 
 const Main_Page = () => {
@@ -47,13 +47,12 @@ const Styled_Wrapper = styled.div`
 const Styled_Bio = styled.div`
 p{
   text-align: center;
-  color: white;
   font-size: 1.5rem;
   position:relative;
   z-index: 0;
   padding-bottom: 20px;
   span{
-    color: ${primary_color};
+
     font-size: 1.6rem;
   }
 }

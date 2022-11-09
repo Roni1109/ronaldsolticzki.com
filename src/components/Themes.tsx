@@ -1,15 +1,10 @@
-
+import {primary_color, secondary_color}from  '../Utility/Colors'
 
 export const lightTheme = {
-    body: '#FFF',
-    text: '#363537',
-    toggleBorder: '#FFF',
-    background: '#363537',
+    body: '#b9acac',
+    text: '#000',
 }
-
-
 export const darkTheme = {
-    text: '#FAFAFA',
-    toggleBorder: '#6B8096',
-    background: '#999',
+    body: '#202020',
+    text: '#fff',
 }

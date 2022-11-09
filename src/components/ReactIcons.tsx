@@ -7,6 +7,8 @@ import {
   AiOutlineDownload,
 } from "react-icons/ai"
 
+import {FaSun, FaMoon} from 'react-icons/fa'
+
 type Props = {
   type: string
   size: number

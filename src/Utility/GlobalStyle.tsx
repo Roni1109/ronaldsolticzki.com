@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components"
+import { DefaultTheme, ColorsInterface } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+
+export const GlobalStyle = createGlobalStyle <DefaultTheme >`
 
     * {
         box-sizing: border-box;
@@ -10,12 +12,15 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Exo-soft', sans-serif;
     }
 
-    body{
-        background: #202020;
+    body {
+    background: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
+    transition: all 0.3s linear;
     }
+    
 
     h1 {
-        font-size: 3.75rem;
+        font-size: 3.5rem;
         line-height: 5rem;
         letter-spacing: 2px;
         font-weight: 600;
@@ -66,4 +71,3 @@ const GlobalStyle = createGlobalStyle`
     }
 `
 
-export default GlobalStyle

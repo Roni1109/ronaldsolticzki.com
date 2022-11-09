@@ -1,25 +1,18 @@
 import React, { useState, Fragment } from "react"
-import styled from "styled-components"
+import styled, {ThemeProvider} from "styled-components"
 import img1 from "../img/logo.png"
 import {primary_color} from "../Utility/Colors"
 import {secondary_color_tint} from "../Utility/Colors"
 import { accent_color } from "../Utility/Colors"
-
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
 import Sidebar from "./Sidebar"
 
 const Navbar = () => {
-  const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () =>{
-     if(window.scrollY >= 80){
-       setColorchange(true);
-     }
-     else{
-       setColorchange(false);
-     }
-  };
-  window.addEventListener('scroll', changeNavbarColor);
+  const [theme, setTheme] = useState('light');
+  const themeToggler = () => {
+    theme === 'light' ? setTheme('dark') : setTheme('light')
+  }
   return (
     <>
       <Sidebar />
@@ -39,8 +32,6 @@ const Navbar = () => {
 }
 
 // Styled Components
-
-
 const Styled_Nav = styled.div`
   z-index: 2;
   position: sticky;
@@ -52,12 +43,10 @@ const Styled_Nav = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  
-  background-color: transparent;
+  background-color: #363535;
     @media screen and (max-width: 768px) {
      display: none;
     }
-
 `
 
 const Styled_Logo = styled.a`
@@ -110,6 +99,7 @@ const MenuLink = styled.a`
   transition: all 200ms ease-in-out;
   &:hover {
     color: ${accent_color};
+    transition: ease-in-out 0.25s all;
   }
 `
 

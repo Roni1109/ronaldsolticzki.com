@@ -1,34 +1,43 @@
-import React from "react"
-import { useRef } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import Navbar from "./components/Navbar"
+// Pages
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import MainPage from './pages/MainPage'
-import GlobalStyle from "./Utility/GlobalStyle"
+// Styled Components
+import styled from "styled-components"
 // Routing
 import { Routes, Route, useLocation } from "react-router-dom"
 
-const App = () => {
- function Scroll () {
-  const ref = useRef<null | HTMLDivElement>(null); 
+import {ThemeProvider} from "styled-components";
+import { GlobalStyle } from "./Utility/GlobalStyle"
+import { lightTheme, darkTheme } from "./components/Themes"
+import { DefaultTheme } from 'styled-components';
 
-  const handleClick = () =>{
-    ref.current?.scrollIntoView({behavior: 'smooth'});
-  };
- }
+const App = () => {
+  const [theme, setTheme] = useState('light');
+  const themeToggler = () => {
+    theme === 'light' ? setTheme('dark') : setTheme('light')
+}
+
   return (
-    <>
+      <ThemeProvider theme = {theme === 'light' ? lightTheme : darkTheme}>
+        <>
       <Navbar />
-      <GlobalStyle />
+      <button onClick={themeToggler}>Switch Theme </button>
+      <GlobalStyle text={""} body={""} background={""} toggleBorder={""} />
       {<Routes location={location} key={location.pathname}>
         <Route path='/' element={<MainPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
       </Routes> }
-    </>
+      </>
+      </ThemeProvider>
   )
   }
+
+
 
 export default App

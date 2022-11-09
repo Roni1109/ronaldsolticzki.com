@@ -12,7 +12,7 @@ import ReactIcons from "../components/ReactIcons"
 
 const About = () => {
   return (
-    <Styled_Container>
+    <Styled_Wrapper>
       <Styled_Description>
         <Styled_Image src={profileIMG} alt='' />
         <div className='desc_container'>
@@ -38,14 +38,13 @@ const About = () => {
           </Styled_cvBTN>
         </div>
       </Styled_Description>
-    </Styled_Container>
+    </Styled_Wrapper>
   )
 }
 
-const Styled_Container = styled.div`
-  margin: 5rem 0rem;
+const Styled_Wrapper = styled.div`
+  margin: 4rem 0rem;
   width: 100%;
-  background: red;
 `
 
 const Styled_Description = styled.div`
@@ -55,24 +54,28 @@ const Styled_Description = styled.div`
   text-align: center;
   width: 90%;
   margin: 0 auto;
+  .title{
+    font-family: 'Arvo', serif;
+  }
 
   .desc_container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0 5rem;
     justify-content: center;
     gap: 1rem;
-  }
-  .title {
+    .title {
     color: ${primary_color};
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
+  }
+  
   p {
     color: white;
     text-indent: 2cm;
-    text-align: start;
+    text-align: center;
 
     .icon {
       align-items: center;
@@ -96,9 +99,9 @@ const Styled_Image = styled.img`
 const Styled_cvBTN = styled.button`
   background-color: white;
   align-self: center;
-  border-radius: 2rem;
-  padding: 2rem;
-  gap: 2rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  gap: 1rem;
   color: ${primary_color};
   border: none;
   display: flex;
@@ -109,6 +112,7 @@ const Styled_cvBTN = styled.button`
     transition: 0.15s all ease-in-out;
     color: white;
     background-color: black;
+    cursor: pointer;
     .icon {
       color: ${primary_color};
     }
