@@ -18,7 +18,7 @@ const ThemeButton = styled.button`
 
 const Toggle = ({theme,  toggleTheme } :{theme:string, toggleTheme: string}) => {
     return (
-        <ThemeButton onClick={toggleTheme} >
+        <ThemeButton>
           Switch Theme
         </ThemeButton>
     );
