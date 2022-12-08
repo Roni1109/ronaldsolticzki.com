@@ -23,6 +23,7 @@ const Navbar = () => {
         </Styled_Logo>
         <Styled_Menu>
           <MenuLink href='/about'>About</MenuLink>
+          <MenuLink href='/myskills'>My Skills</MenuLink>
           <MenuLink href='/portfolio'>Portfolio</MenuLink>
           <MenuLink href='/contact'>Contact</MenuLink>
         </Styled_Menu>

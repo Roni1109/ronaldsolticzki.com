@@ -5,6 +5,7 @@ import { accent_color, primary_color, secondary_color_tint } from "../Utility/Co
 import bg from '../img/BGillustration.png'
 import MyKnowledge from "./MySkills"
 import About from "./About"
+import Portfolio from "./Portfolio"
 
 const Main_Page = () => {
   return (
@@ -28,6 +29,8 @@ const Main_Page = () => {
     <br />
     <About />
     <MyKnowledge />
+    <Portfolio />
+
   </>
   )
 }

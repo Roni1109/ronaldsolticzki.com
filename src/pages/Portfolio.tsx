@@ -1,8 +1,10 @@
 import React from "react";
+import styled from "styled-components";
+import PortfolioCards from "../components/PortfolioCards";
 
 const Portfolio = () => {
     return(
-        <h1>Check my portfolio down bellow</h1>
+        <PortfolioCards />
     )
 }
 

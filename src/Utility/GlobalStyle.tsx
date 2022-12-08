@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components"
 import { DefaultTheme, ColorsInterface } from 'styled-components';
 
+createGlobalStyle<{theme: ThemeType}>
+
 
 export const GlobalStyle = createGlobalStyle <DefaultTheme >`
 
@@ -51,6 +53,7 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
     h5 {
       font-size: 1.5rem;
       letter-spacing: 0px;    
+      line-height: 40px;
       font-weight: 400;
       font-style: normal;
     }

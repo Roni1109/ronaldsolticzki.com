@@ -92,7 +92,6 @@ const Styled_Description = styled.div`
 
 const Styled_Image = styled.img`
   width: 35%;
-
   border-radius: 5%;
 `
 

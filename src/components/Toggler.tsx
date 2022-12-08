@@ -2,10 +2,14 @@ import React from 'react'
 import { func, string } from 'prop-types';
 import styled from "styled-components"
 
-const Button = styled.button`
-  background: ${({ theme }) => theme.background};
-  border: 2px solid ${({ theme }) => theme.toggleBorder};
+
+/* background: ${({ theme }) => theme.background};
+border: 2px solid ${({ theme }) => theme.toggleBorder}; */
+
+const ThemeButton = styled.button`
   color: ${({ theme }) => theme.text};
+  z-index: 5;
+  position: absolute;
   border-radius: 30px;
   cursor: pointer;
   font-size:0.8rem;
@@ -14,9 +18,9 @@ const Button = styled.button`
 
 const Toggle = ({theme,  toggleTheme } :{theme:string, toggleTheme: string}) => {
     return (
-        <Button onClick={toggleTheme} >
+        <ThemeButton onClick={toggleTheme} >
           Switch Theme
-        </Button>
+        </ThemeButton>
     );
 };
 Toggle.propTypes = {
