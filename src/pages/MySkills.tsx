@@ -6,32 +6,20 @@ import SkillBar from '../components/SkillBar'
 
 const MySkills = () => {
     return(
-        <Styled_Wrapper>
-            <h1>MY SKILLS</h1>
-            <br />
-            <br />
-            <br />
-        <Styled_Skills>
-          < SkillBar/>
-        </Styled_Skills>
-        </Styled_Wrapper>
+      <>
+      <Styled_Title>My Skills</Styled_Title>
+      <div className="cardContainer">
+        <div className="js">JavaScript</div>
+        <div className="selenium">Selenium</div>
+        <div className="js">JavaScript</div>
+      </div>
+      </>
+
     )
 }
 
-const Styled_Wrapper = styled.div`
-  margin: 10rem 0rem;
-  width: 100%;
-  height: auto;
-  h1{
-    font-family: 'Arvo', serif;
-    color: ${primary_color};
-    padding-bottom: 10px;
-  }
-    
+const Styled_Title = styled.h2`
+  font-size: 3rem;
+  color: ${primary_color};
 `
-
-const Styled_Skills = styled.h2`
-    
-`
-
 export default MySkills

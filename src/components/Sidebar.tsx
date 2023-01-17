@@ -25,7 +25,7 @@ const Styled_Sidebar = styled.nav`
   position: fixed;
   line-height: 100px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 800px) {
     display: none;
   }
 `

@@ -20,7 +20,7 @@ import { DarkMode } from "styled-components"
 
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('DefaultTheme');
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light')
 }
