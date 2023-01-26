@@ -42,6 +42,9 @@ const Styled_Wrapper = styled.div`
   img{
     width: 60%;
     height: 60%;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
   }
 ` 
 
@@ -53,8 +56,12 @@ p{
   z-index: 0;
   padding-bottom: 20px;
   span{
-
     font-size: 1.6rem;
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+ 
+
   }
 }
 h3{
@@ -63,6 +70,12 @@ h3{
   display: flex;
   justify-content: flex-start;
   padding-bottom: 30px;
+  @media screen and (max-width: 768px) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
 }
 h6{
   color: ${secondary_color_tint};
@@ -72,8 +85,9 @@ h6{
   padding-bottom: 25px;
   font-family: 'Arvo', serif;
   padding-bottom: 50px;
+  
 }
-`
+}`
 
 const Styled_Button = styled.a`
   display: flex;
@@ -92,6 +106,12 @@ const Styled_Button = styled.a`
     font-size: 1.25rem;
     width: 21%;
     transition: 0.1s all ease-in-out;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 175px;
   }
 `
 

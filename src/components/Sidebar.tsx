@@ -24,13 +24,11 @@ const Styled_Sidebar = styled.nav`
   height: 100%;
   position: fixed;
   line-height: 100px;
-
+  display: none;
   @media screen and (max-width: 768px) {
     display: none;
   }
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
+
 `
 
 const Styled_Menu = styled.div`
