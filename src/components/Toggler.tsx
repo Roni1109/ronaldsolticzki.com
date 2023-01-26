@@ -19,7 +19,8 @@ const ThemeButton = styled.button`
 const Toggle = ({theme,  toggleTheme } :{theme:string, toggleTheme: string}) => {
     return (
         <ThemeButton>
-          Switch Theme
+         <div className="iconButton"> Switch Theme
+          </div>
         </ThemeButton>
     );
 };

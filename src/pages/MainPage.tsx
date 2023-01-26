@@ -3,7 +3,6 @@ import { useRef } from "react"
 import styled from "styled-components"
 import { accent_color, primary_color, secondary_color_tint } from "../Utility/Colors"
 import bg from '../img/BGillustration.png'
-import MyKnowledge from "./MySkills"
 import About from "./About"
 import Portfolio from "./Portfolio"
 
@@ -28,7 +27,6 @@ const Main_Page = () => {
     <br />
     <br />
     <About />
-    <MyKnowledge />
     <Portfolio />
 
   </>
@@ -65,7 +63,6 @@ h3{
   display: flex;
   justify-content: flex-start;
   padding-bottom: 30px;
-
 }
 h6{
   color: ${secondary_color_tint};
