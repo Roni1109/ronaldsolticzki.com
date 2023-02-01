@@ -18,8 +18,17 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     }
-    
 
+    .test{
+      padding: 0 7vw;
+    }
+    @media screen and (max-width:768px){
+      .test{
+        padding: 0 2rem;
+        background: blue;
+      }
+    }
+    
     h1 {
         font-size: 3.5rem;
         line-height: 5rem;

@@ -16,6 +16,7 @@ import { lightTheme, darkTheme } from "./components/Themes"
 import { DefaultTheme } from 'styled-components';
 import { createGlobalStyle } from "styled-components"
 import { DarkMode } from "styled-components"
+import Layout from "./layout/Layout"
 
 
 
@@ -30,13 +31,14 @@ const App = () => {
       <ThemeProvider theme= {theme === 'light' ? lightTheme : darkTheme}>
       <button onClick={themeToggler}>Switch Theme </button>
       <GlobalStyle text={""} body={""} />
-    
+      <Layout>
       {<Routes location={location} key={location.pathname}>
         <Route path='/' element={<MainPage />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
       </Routes> }
+      </Layout>
       </ThemeProvider>
         </>
   )

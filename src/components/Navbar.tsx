@@ -16,11 +16,7 @@ const Navbar = () => {
   return (
     <>
       <Sidebar />
-
       <Styled_Nav>
-        <Styled_Logo href='/'>
-          <h3>RS</h3>
-        </Styled_Logo>
         <Styled_Menu>
           <MenuLink href='/about'>About</MenuLink>
           <MenuLink href='/myskills'>My Skills</MenuLink>
@@ -38,13 +34,11 @@ const Styled_Nav = styled.div`
   position: sticky;
   padding: 0.5rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 50px;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #363535;
+  padding-top: 20px;
+
+ 
     @media screen and (max-width: 768px) {
      display: none;
     }

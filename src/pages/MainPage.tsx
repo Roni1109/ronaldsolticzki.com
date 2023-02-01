@@ -4,9 +4,9 @@ import styled, {keyframes} from "styled-components"
 import { accent_color, primary_color, secondary_color_tint } from "../Utility/Colors"
 import bg from '../img/BGillustration.png'
 import About from "./About"
-import Portfolio from "./Portfolio"
-import Error404 from "./ErrorPage"
-import MySkills from "./MySkills"
+// import Portfolio from "./Portfolio"
+// import Error404 from "./ErrorPage"
+// import MySkills from "./MySkills"
 
 
 const Main_Page = () => {
@@ -35,8 +35,8 @@ const Main_Page = () => {
     <br />
     <br />
     <About />
-    <MySkills />
-    <Portfolio />
+    {/* <MySkills />
+    <Portfolio /> */}
 
   </>
   )
