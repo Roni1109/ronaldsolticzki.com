@@ -1,10 +1,13 @@
 import React from "react"
 import { useRef } from "react"
-import styled from "styled-components"
+import styled, {keyframes} from "styled-components"
 import { accent_color, primary_color, secondary_color_tint } from "../Utility/Colors"
 import bg from '../img/BGillustration.png'
 import About from "./About"
 import Portfolio from "./Portfolio"
+import Error404 from "./ErrorPage"
+import MySkills from "./MySkills"
+
 
 const Main_Page = () => {
   return (
@@ -13,25 +16,46 @@ const Main_Page = () => {
 
       <Styled_Bio>
         <h3>SOLTICZKI RONALD</h3>
-        <h6>QA Tester & Frontend Developer</h6>
-        <p>Hi there! 
+        <br></br>
+        <br></br>
+        <FadeIn>
+        <h6>Quality Assurance Software Tester & Frontend Developer</h6>
+        </FadeIn>
+        {/* <p>Hi there! 
           <br></br>
-          My name is Ronald, I am 22 years old and I am living in Romania. I am an entusiastic man at the <span> beginning of his journey </span>in programming and testing. </p>
-          <Styled_Button href="about">
+          My name is Ronald, I am 22 years old and I am living in Romania. I am an entusiastic man at the <span> beginning of his journey </span>in programming and testing. </p> */}
+          {/* <Styled_Button href='About'>
             Read More
-          </Styled_Button>
+          </Styled_Button> */}
+
       </Styled_Bio>
-        <img src={bg} alt="" />
+        {/* <img src={bg} alt="" /> */}
 
     </Styled_Wrapper>
     <br />
     <br />
     <About />
+    <MySkills />
     <Portfolio />
 
   </>
   )
 }
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  `
+
+const FadeIn = styled.div`
+  animation: 2s ${fadeIn} ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+`;
 
 const Styled_Wrapper = styled.div`
   width: 100%;
@@ -60,16 +84,16 @@ p{
   }
   @media screen and (max-width: 768px) {
     justify-content: center;
- 
-
   }
 }
 h3{
-  color: ${primary_color};
-  padding-left: 25px;
-  display: flex;
-  justify-content: flex-start;
-  padding-bottom: 30px;
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
   @media screen and (max-width: 768px) {
     position: relative;
     display: flex;
@@ -77,17 +101,22 @@ h3{
     text-align: center;
     line-height: 2rem;
 }
-h6{
-  color: ${secondary_color_tint};
-  padding-top: 20px;
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 25px;
-  font-family: 'Arvo', serif;
-  padding-bottom: 50px;
-  
 }
-}`
+h6{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  @media screen and (max-width: 768px) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 2rem;
+}
+}
+`
 
 const Styled_Button = styled.a`
   display: flex;
@@ -106,6 +135,12 @@ const Styled_Button = styled.a`
     font-size: 1.25rem;
     width: 21%;
     transition: 0.1s all ease-in-out;
+    @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 175px;
+  }
   }
   @media screen and (max-width: 768px) {
     display: flex;

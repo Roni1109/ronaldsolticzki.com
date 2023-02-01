@@ -6,6 +6,6 @@ export const lightTheme = {
     text: '#000',
 }
 export const darkTheme = {
-    body: '#202020',
+    body: '#15212E',
     text: '#fff',
 } as DefaultTheme

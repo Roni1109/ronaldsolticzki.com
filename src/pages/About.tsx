@@ -49,10 +49,10 @@ const Styled_Wrapper = styled.div`
 
 const Styled_Description = styled.div`
   display: flex;
+  width: 95%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 90%;
   margin: 0 auto;
   .title{
     font-family: 'Arvo', serif;
