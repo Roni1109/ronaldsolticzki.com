@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import Navbar from "./components/Navbar"
 // Pages
-import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
-import Contact from "./pages/Contact"
+import MySkills from "./components/MySkills"
 import MainPage from './pages/MainPage'
 // Styled Components
 import styled, { useTheme } from "styled-components"
@@ -19,7 +17,6 @@ import { DarkMode } from "styled-components"
 import Layout from "./layout/Layout"
 
 
-
 const App = () => {
   const [theme, setTheme] = useState('DefaultTheme');
   const themeToggler = () => {
@@ -27,16 +24,13 @@ const App = () => {
 }
   return (
     <>
-      <Navbar />
       <ThemeProvider theme= {theme === 'light' ? lightTheme : darkTheme}>
-      <button onClick={themeToggler}>Switch Theme </button>
+      <Navbar />
+      <button onClick={themeToggler}>Test </button>
       <GlobalStyle text={""} body={""} />
       <Layout>
       {<Routes location={location} key={location.pathname}>
         <Route path='/' element={<MainPage />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/contact' element={<Contact />} />
       </Routes> }
       </Layout>
       </ThemeProvider>

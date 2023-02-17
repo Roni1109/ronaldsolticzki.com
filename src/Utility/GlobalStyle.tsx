@@ -25,7 +25,6 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
     @media screen and (max-width:768px){
       .test{
         padding: 0 2rem;
-        background: blue;
       }
     }
     
@@ -75,7 +74,7 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
     } 
     
     p {
-      font-size: 1.3rem;
+      font-size: 1rem;
       letter-spacing: 1.3px; 
       font-weight: 300;
       font-style: normal;

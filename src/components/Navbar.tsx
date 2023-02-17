@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from "react"
-import styled, {ThemeProvider} from "styled-components"
+import styled, { ThemeProvider, useTheme } from "styled-components"
 import img1 from "../img/logo.png"
 import {primary_color} from "../Utility/Colors"
 import {secondary_color_tint} from "../Utility/Colors"
@@ -7,6 +7,13 @@ import { accent_color } from "../Utility/Colors"
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
 import Sidebar from "./Sidebar"
+
+// Dark Theme
+import { DarkMode } from "styled-components"
+import { DefaultTheme } from 'styled-components';
+
+import { lightTheme, darkTheme } from "./Themes"
+
 
 const Navbar = () => {
   const [theme, setTheme] = useState('light');
@@ -23,7 +30,9 @@ const Navbar = () => {
           <MenuLink href='/portfolio'>Portfolio</MenuLink>
           <MenuLink href='/contact'>Contact</MenuLink>
         </Styled_Menu>
-      </Styled_Nav>
+     <Toggle_Button onClick={themeToggler}>Test </Toggle_Button>
+     </Styled_Nav>
+     
     </>
   )
 }
@@ -37,11 +46,9 @@ const Styled_Nav = styled.div`
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-
- 
     @media screen and (max-width: 768px) {
-     display: none;
-    }
+      flex-direction: column;
+    align-items: flex-start;    }
 `
 
 const Styled_Logo = styled.a`
@@ -57,22 +64,22 @@ const Styled_Logo = styled.a`
   }
 `
 
-//  const Hamburger = styled.div`
-// display: none;
-// flex-direction: column;
-// cursor: pointer;
-//   span{
-//     height: 2px;
-//     width: 25px;
-//     background: #fff;
-//     margin-bottom: 4px;
-//     border-radius: 5px;
-//   }
-//   @media (max-width: 768px){
-//     display: flex;
+ const Hamburger = styled.div`
+display: none;
+flex-direction: column;
+cursor: pointer;
+  span{
+    height: 2px;
+    width: 25px;
+    background: #fff;
+    margin-bottom: 4px;
+    border-radius: 5px;
+  }
+  @media (max-width: 768px){
+    display: flex;
 
-//   }
-// `;
+  }
+`;
 
 const Styled_Menu = styled.div`
   display: flex;
@@ -96,6 +103,10 @@ const MenuLink = styled.a`
     color: ${accent_color};
     transition: ease-in-out 0.25s all;
   }
+`
+
+const Toggle_Button = styled.button`
+
 `
 
 export default Navbar

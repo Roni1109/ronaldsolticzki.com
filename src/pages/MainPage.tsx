@@ -3,7 +3,8 @@ import { useRef } from "react"
 import styled, {keyframes} from "styled-components"
 import { accent_color, primary_color, secondary_color_tint } from "../Utility/Colors"
 import bg from '../img/BGillustration.png'
-import About from "./About"
+import MySkills from "../components/MySkills"
+import MyWork from "../components/MyWork"
 // import Portfolio from "./Portfolio"
 // import Error404 from "./ErrorPage"
 // import MySkills from "./MySkills"
@@ -21,22 +22,13 @@ const Main_Page = () => {
         <FadeIn>
         <h6>Quality Assurance Software Tester & Frontend Developer</h6>
         </FadeIn>
-        {/* <p>Hi there! 
-          <br></br>
-          My name is Ronald, I am 22 years old and I am living in Romania. I am an entusiastic man at the <span> beginning of his journey </span>in programming and testing. </p> */}
-          {/* <Styled_Button href='About'>
-            Read More
-          </Styled_Button> */}
-
       </Styled_Bio>
-        {/* <img src={bg} alt="" /> */}
-
     </Styled_Wrapper>
+    <MySkills />
     <br />
     <br />
-    <About />
-    {/* <MySkills />
-    <Portfolio /> */}
+    <MyWork />
+
 
   </>
   )
@@ -63,12 +55,12 @@ const Styled_Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  img{
-    width: 60%;
-    height: 60%;
   @media screen and (max-width: 768px) {
-    display: none;
-  }
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 ` 
 
@@ -82,9 +74,6 @@ p{
   span{
     font-size: 1.6rem;
   }
-  @media screen and (max-width: 768px) {
-    justify-content: center;
-  }
 }
 h3{
     color: white;
@@ -93,13 +82,10 @@ h3{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 10px;
   @media screen and (max-width: 768px) {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    font-size: 1.7rem;
     line-height: 2rem;
+    letter-spacing: 5px;
 }
 }
 h6{
@@ -109,11 +95,11 @@ h6{
   text-align: center;
   
   @media screen and (max-width: 768px) {
+    font-size: 1rem;
     position: relative;
     display: flex;
     justify-content: center;
     text-align: center;
-    line-height: 2rem;
 }
 }
 `
