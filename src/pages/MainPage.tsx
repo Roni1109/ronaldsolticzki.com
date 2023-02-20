@@ -5,6 +5,7 @@ import { accent_color, primary_color, secondary_color_tint } from "../Utility/Co
 import bg from '../img/BGillustration.png'
 import MySkills from "../components/MySkills"
 import MyWork from "../components/MyWork"
+import VideoBG from "../components/VideoBG"
 // import Portfolio from "./Portfolio"
 // import Error404 from "./ErrorPage"
 // import MySkills from "./MySkills"
@@ -14,7 +15,7 @@ const Main_Page = () => {
   return (
   <>
     <Styled_Wrapper>
-
+      <VideoBG />
       <Styled_Bio>
         <h3>SOLTICZKI RONALD</h3>
         <br></br>
