@@ -5,25 +5,14 @@ import { accent_color, primary_color, secondary_color_tint } from "../Utility/Co
 import bg from '../img/BGillustration.png'
 import MySkills from "../components/MySkills"
 import MyWork from "../components/MyWork"
-// import Portfolio from "./Portfolio"
-// import Error404 from "./ErrorPage"
-// import MySkills from "./MySkills"
+import MainPageText from "../components/MainPageText"
+
 
 
 const Main_Page = () => {
   return (
   <>
-    <Styled_Wrapper>
-
-      <Styled_Bio>
-        <h3>SOLTICZKI RONALD</h3>
-        <br></br>
-        <br></br>
-        <FadeIn>
-        <h6>Quality Assurance Software Tester & Frontend Developer</h6>
-        </FadeIn>
-      </Styled_Bio>
-    </Styled_Wrapper>
+  <MainPageText />
     <MySkills />
     <br />
     <br />

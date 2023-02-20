@@ -48,7 +48,7 @@ const Styled_Wrapper = styled.div`
 const Styled_Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 0.8fr));
-    width: 200%;
+    
     gap: 1rem;
     @media screen and (max-width: 768px) {
         grid-template-columns: 0.5fr;
