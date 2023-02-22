@@ -14,15 +14,18 @@ const VideoBG = () => {
 
 const Styled_BGVideo = styled.div`
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     z-index: -1;
-    opacity: 0.15;
-    
+    opacity: 0.04;
+    @media (max-width: 768px) {
+    background-size: cover;
+    height: 200px;
+    }
 `
 
 export default VideoBG

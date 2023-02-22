@@ -15,7 +15,6 @@ declare module 'styled-components' {
   export interface DarkMode{
     text: string
     body: string
-
   }
 }
 

@@ -40,15 +40,16 @@ const Navbar = () => {
 // Styled Components
 const Styled_Nav = styled.div`
   z-index: 2;
-  position: sticky;
-  padding: 0.5rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  padding: 0.5rem 2rem;
   padding-top: 20px;
     @media screen and (max-width: 768px) {
       flex-direction: column;
-    align-items: flex-start;    }
+    align-items: flex-start;    
+    }
 `
 
 const Styled_Logo = styled.a`

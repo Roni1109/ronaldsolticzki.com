@@ -20,7 +20,7 @@ const MyWork = () => {
             </Left_Description>
             <Right_Description>
             <h4>My Experience as a Frontend Developer:</h4>
-            <p>This is my first website, the start of my journey</p>
+            <p>My experience is based on 3 online courses that I made and on this website</p>
             </Right_Description>
         </Styled_Description>
 
@@ -42,19 +42,20 @@ const Styled_Title = styled.div`
 h1{
     line-height: 70px;
     @media screen and (max-width: 768px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        padding-right: 25px;
     }
 }
 `
 const Left_Description = styled.div`
     width: 50%;
+    h4{
+        display: flex;
+        justify-content: flex-start;
+    }
     @media screen and (max-width: 768px) {
         align-items: center;
         text-align: center;
-        width: 200%;
+        width: auto;
     }
     h4{
         @media screen and (max-width: 768px) {
@@ -76,6 +77,14 @@ const Left_Description = styled.div`
 `
 const Right_Description = styled.div`
     width: 50%;
+    h4{
+        display: flex;
+        justify-content: flex-end;
+    }
+    p{
+        display: flex;
+        justify-content: flex-end;
+    }
         @media screen and (max-width: 768px) {
         display: none;
     }
@@ -84,5 +93,6 @@ const Right_Description = styled.div`
 const Styled_Description = styled.div`
 display: flex;
 padding-top: 2rem;
+
 `
 export default MyWork
