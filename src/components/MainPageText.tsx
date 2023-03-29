@@ -4,7 +4,7 @@ import styled, {keyframes} from "styled-components"
 import { accent_color, primary_color, secondary_color_tint } from "../Utility/Colors"
 import bg from '../img/BGillustration.png'
 import MySkills from "../components/MySkills"
-import MyWork from "../components/MyWork"
+import MyWork from "./ProfessionalExperience"
 import VideoBG from "../components/VideoBG"
 
 const MainPageText = () => {

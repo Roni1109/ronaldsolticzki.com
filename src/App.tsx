@@ -15,6 +15,7 @@ import { DefaultTheme } from 'styled-components';
 import { createGlobalStyle } from "styled-components"
 import { DarkMode } from "styled-components"
 import Layout from "./layout/Layout"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
       </Routes> }
       </Layout>
       </ThemeProvider>
+      <Footer />
         </>
   )
   }

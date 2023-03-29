@@ -22,12 +22,13 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
     .test{
       padding: 0 7vw;
     }
+    
     @media screen and (max-width:768px){
       .test{
         padding: 0 2rem;
       }
     }
-    
+
     h1 {
         font-size: 3.5rem;
         line-height: 5rem;

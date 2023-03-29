@@ -1,6 +1,6 @@
 import React from "react"
 import { useRef } from "react"
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components"
 import {
   accent_color,
   primary_color,
@@ -18,12 +18,14 @@ import selenium from '../img/Icons/selenium.png'
 import css from '../img/Icons/css.png' 
 import ReactIcons from "../components/ReactIcons"
 
+import AsanaLogoAnimated from "./AnimatedAsana"
+import App from "./AnimatedAsana"
+
+
 const MySkills = () => {
   return (
     <Styled_Wrapper>
-      <Styled_Title>
-        <h1>Skills </h1>
-      </Styled_Title>
+     <h1>Skills </h1>
       <Styled_Grid>
         <div className="gridContainer">
           <h4>Manual Testing</h4>
@@ -39,21 +41,45 @@ const MySkills = () => {
         </div>
       </Styled_Grid>
         <div className="logo-icon">
-          <img src={asana} alt="Logo" />
-          <img src={bugzila} alt="Logo" />
-          <img src={cypress} alt="Logo" />
+          <App />
           <img src={jira} alt="Logo" />
+          <img src={cypress} alt="Logo" />
+          <img src={bugzila} alt="Logo" />
           <img src={katalon} alt="Logo" />
           <img src={selenium} alt="Logo" />
           <img src={html} alt="Logo" />
           <img src={css} alt="Logo" />
           <img src={javascript} alt="Logo" />
           <img src={react} alt="Logo" />
-    </div>
+        </div>
 
     </Styled_Wrapper>
   )
 }
+
+const PopUpContainer = styled.div`
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+`;  
+
+const hoverAnimation = keyframes`
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+`;
 
 const Styled_Wrapper = styled.div`
   margin: 4rem 0rem;
@@ -65,12 +91,18 @@ const Styled_Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.2rem;
     img{
-    height: 60px;
-    width: 60px;
-    }
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    transition: transform 0.1s ease-in-out;
+
+    &:hover {
+    animation: ${hoverAnimation} 0.5s forwards;
   }
+  }
+ }
 `
 
 const Styled_Grid = styled.div`
@@ -94,8 +126,5 @@ const Styled_Grid = styled.div`
     }
 `
 
-const Styled_Title = styled.div`
-
-`
 
 export default MySkills
