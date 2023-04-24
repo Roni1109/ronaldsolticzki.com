@@ -11,7 +11,6 @@ import Sidebar from "./Sidebar"
 // Dark Theme
 import { DarkMode } from "styled-components"
 import { DefaultTheme } from 'styled-components';
-
 import { lightTheme, darkTheme } from "./Themes"
 
 

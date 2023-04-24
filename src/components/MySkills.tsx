@@ -19,7 +19,7 @@ import css from '../img/Icons/css.png'
 import ReactIcons from "../components/ReactIcons"
 
 import AsanaLogoAnimated from "./AnimatedAsana"
-import App from "./AnimatedAsana"
+import AnimatedAsana from "./AnimatedAsana"
 
 
 const MySkills = () => {
@@ -41,7 +41,7 @@ const MySkills = () => {
         </div>
       </Styled_Grid>
         <div className="logo-icon">
-          <App />
+          <AnimatedAsana />
           <img src={jira} alt="Logo" />
           <img src={cypress} alt="Logo" />
           <img src={bugzila} alt="Logo" />
@@ -57,17 +57,6 @@ const MySkills = () => {
   )
 }
 
-const PopUpContainer = styled.div`
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 200px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-`;  
 
 const hoverAnimation = keyframes`
   0% {

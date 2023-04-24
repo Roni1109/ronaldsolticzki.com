@@ -25,7 +25,7 @@ cursor: pointer;
   
 `;
 
-const App = () => {
+const AnimatedAsana = () => {
   return (
     <div>
       <Logo />
@@ -33,4 +33,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AnimatedAsana;

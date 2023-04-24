@@ -1,19 +1,13 @@
-import React, { useEffect, useRef, useState } from "react"
+import React, { useState } from "react"
 import Navbar from "./components/Navbar"
 // Pages
-import MySkills from "./components/MySkills"
 import MainPage from './pages/MainPage'
-// Styled Components
-import styled, { useTheme } from "styled-components"
 // Routing
-import { Routes, Route, useLocation } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 import {ThemeProvider} from "styled-components";
 import { GlobalStyle } from "./Utility/GlobalStyle"
 import { lightTheme, darkTheme } from "./components/Themes"
-import { DefaultTheme } from 'styled-components';
-import { createGlobalStyle } from "styled-components"
-import { DarkMode } from "styled-components"
 import Layout from "./layout/Layout"
 import Footer from "./components/Footer"
 
