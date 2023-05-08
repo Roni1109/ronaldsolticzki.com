@@ -8,20 +8,20 @@ const Footer = () => {
   return (
     <Styled_Wrapper className='footer'>
          <FooterWrapper>
-         <LeftText>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit cupiditate, laudantium tempore qui repellat aliquid, sed error facilis, in sunt sapiente. Tempora harum iste nam placeat illo recusandae tenetur neque, et officiis vitae culpa corporis voluptas ipsa atque velit libero, mollitia adipisci commodi cupiditate dolore aliquid! Quis provident impedit, temporibus dolorem praesentium deserunt perferendis voluptatibus officia nam eum recusandae voluptatum consectetur excepturi quod sapiente dolor tempore, doloribus facere. Saepe ad quidem accusantium quod similique aliquam laboriosam iste id vel laudantium quisquam blanditiis debitis odit quasi, error porro, earum non ratione consequuntur necessitatibus beatae. Porro obcaecati fuga inventore recusandae? Architecto.</LeftText>
+         <LeftText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus tempora voluptatem vitae officia voluptatum. Aperiam soluta vero nesciunt explicabo repellendus.</LeftText>
       <SocialIcons>
         <li>
-          <SocialIconLink href="https://www.linkedin.com">
+          <SocialIconLink href="https://www.linkedin.com/in/ronaldsolticzki/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </SocialIconLink>
         </li>
         <li>
-          <SocialIconLink href="https://www.github.com">
+          <SocialIconLink href="https://github.com/Roni1109" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </SocialIconLink>
         </li>
         <li>
-          <SocialIconLink href="https://www.instagram.com">
+          <SocialIconLink href="https://www.instagram.com" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
           </SocialIconLink>
         </li>

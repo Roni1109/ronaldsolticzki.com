@@ -16,8 +16,8 @@ declare module 'styled-components' {
     text: string
     body: string
   }
-
 }
+
 
 
 

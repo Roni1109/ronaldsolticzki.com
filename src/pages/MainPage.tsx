@@ -7,6 +7,7 @@ import MySkills from "../components/MySkills"
 import ProfessionalExperience from "../components/ProfessionalExperience"
 import VideoBG from "../components/VideoBG"
 import MyWork from "../components/MyWork"
+import ContactForm from "../components/Contact"
 
 // import Portfolio from "./Portfolio"
 // import Error404 from "./ErrorPage"
@@ -39,6 +40,12 @@ const Main_Page = () => {
     <br />
     <br />
     <MyWork />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <ContactForm />
     <br />
     <br />
     <br />
