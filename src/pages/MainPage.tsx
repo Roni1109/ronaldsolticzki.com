@@ -45,6 +45,14 @@ const Main_Page = () => {
     <br />
     <br />
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <ContactForm />
     <br />
     <br />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { accent_color } from "../Utility/Colors"
 import asana from '../img/Icons/asana.png' 
@@ -9,9 +9,10 @@ import katalon from '../img/Icons/katalon.png'
 import selenium from '../img/Icons/selenium.png' 
 import trello from '../img/trello.png'
 import postman from '../img/postman.png'
-
 import { Link } from "react-router-dom";
 import cards from './cardsObject'
+import Project from './Project'
+
 
 const MyWork: React.FC = () => {
   return (
@@ -31,7 +32,7 @@ const MyWork: React.FC = () => {
             View Website
           </Styled_ViewWebsite>
           <Styled_ViewWebsite>
-            <MoreLink to={card.detailPage}>More</MoreLink>
+            <MoreLink to={`/project?name=${card.title}`}>More</MoreLink>
           </Styled_ViewWebsite>
         </GridItem>
       ))}
@@ -42,7 +43,7 @@ const MyWork: React.FC = () => {
 
 const GridContainer = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 2rem;
   list-style: none;
@@ -70,7 +71,7 @@ p{
 const Styled_ViewWebsite = styled.a`
     cursor: pointer;
     color: white;
-    margin: 20px 70px;
+    margin: 20px 140px;
     padding: 7px;
     font-size: 1.1rem;
     background-color: #333;
