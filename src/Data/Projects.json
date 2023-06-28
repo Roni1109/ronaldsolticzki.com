@@ -1,37 +1,91 @@
- [{
+[{
     "name": "The Sinners",
-    "duration": "8.04.2022 - 20.09.2023",
-    "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis?",
-    "programs":"Trello, Bugzilla, Jira, Github",
-    "image" : "https://imgtr.ee/i/swaglab.mNx73"
+    "duration": "Apr 2022 - Sept 2022",
+    "description":"The Sinners is a dynamic frontend website exclusively tailored for Dota 2 enthusiasts. It serves as a comprehensive platform that offers a wealth of information and features related to the popular online game. Users can delve into the latest news, patch notes, game updates, hero details, team match results, and leaderboard rankings, all in one centralized hub. With a focus on providing a seamless user experience, the website boasts an intuitive interface and client-side routing, allowing smooth transitions between pages without the need for page reloads. Furthermore, the integration of serverless functions ensures real-time data retrieval and processing, ensuring that users receive up-to-date information at their fingertips.",
+    "image" : "thesinners.png",
+    "tested" : [
+        "Button Component",
+        "Logo transformed in particles on starting page",
+        "Player 3D card",
+        "Heroes page with grid for all heroes, filter by attribute or complexity function, search hero function.",
+        "Hero page with infos about that specific hero",
+        "List with popular and followed teams on Watch Tab on Esports page.",
+        "Load more button on Esports Page / Watch Tab",
+        "[Esports Page - Schedule Tab] Schedule component of last / upcoming matches, sorted by timestamp (time and date).",
+        "Twitch stream player for live games and showcase of last / upcoming matches. [Esports Page / Watch Tab]",
+        "News page",
+        "Latest articles",
+        "Button Component",
+        "Article component",
+        "Customization of scrollbar",
+        "Dynamic info graph with infos about player's games on Dota.",
+        "Contact form",
+        "Top favourite heroes displayed on player's modal",
+        "Comments section on article component",
+        "Comments section on article component"
+    ],
+    "bugs" : [
+        "Medusa's Spells Showcase Component bug",
+        "Invoker's Spells Showcase Component",
+        "Grid of tables filtered by a drop-down menu with the Divisions the teams are playing in. [Esports Page / Watch Tab]"
+    ]
 },
 {
     "name": "Gelu Horotan",
-    "duration": "16.9.2022 - 14.01.2023",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis?"
+    "duration": "Sept 2022 - Jan 2023",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis?",
+    "image" : "geluhorotan.PNG"
 },
 {
     "name": "Swag Labs",
-    "duration": "16.01.2023 - 13.02.2023 ",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis? "
+    "duration": "Jan 2022 - Feb 2022 ",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis? ",
+    "image" : "swaglabs.PNG",
+    "tested" : [
+        "Button Component",
+        "Logo transformed in particles on starting page",
+        "Player 3D card",
+        "Heroes page with grid for all heroes, filter by attribute or complexity function, search hero function.",
+        "Hero page with infos about that specific hero",
+        "List with popular and followed teams on Watch Tab on Esports page.",
+        "Load more button on Esports Page / Watch Tab",
+        "[Esports Page - Schedule Tab] Schedule component of last / upcoming matches, sorted by timestamp (time and date).",
+        "Twitch stream player for live games and showcase of last / upcoming matches. [Esports Page / Watch Tab]",
+        "News page",
+        "Latest articles",
+        "Button Component",
+        "Article component",
+        "Customization of scrollbar",
+        "Dynamic info graph with infos about player's games on Dota.",
+        "Contact form",
+        "Top favourite heroes displayed on player's modal",
+        "Comments section on article component",
+        "Comments section on article component"
+    ],
+    
+    "bugs" : [
+        "Medusa's Spells Showcase Component bug",
+        "Invoker's Spells Showcase Component",
+        "Grid of tables filtered by a drop-down menu with the Divisions the teams are playing in. [Esports Page / Watch Tab]"
+    ]
 },
 {
     "name": "Ski Bike Centre",
-    "duration": "7.10.2022 - present",
+    "duration": "Nov 2022 - Present",
     "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis?",
-    "programs":"Trello, Bugzilla, Jira, Github"
+    "image" : "skibike.PNG"
 },
 {
     "name": "Bluehouse",
-    "duration": "7.04.2023-20.04.2023",
+    "duration": "Apr 2023 - May 2023",
     "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis?",
-    "programs":"Trello, Bugzilla, Jira, Github"
+    "image" : "bluehouse.PNG"
 },
 {
     "name": "Ronald Solticzki",
-    "duration": "6.01.2023 - present",
+    "duration": "Jan 2023 - Present",
     "description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cum debitis, laboriosam vel iure, qui inventore dignissimos esse exercitationem necessitatibus explicabo pariatur harum nulla officia perspiciatis. Beatae, cum quod ab dolore nobis ratione asperiores ullam quibusdam, quis aut maiores similique porro repellendus? Blanditiis, cumque nobis consequatur autem ipsa quisquam natus aperiam itaque asperiores. Quidem nulla atque blanditiis, recusandae iste molestias repellat sunt optio, possimus dignissimos officia eum maiores quaerat? Fugit, vitae ex deserunt quam aut illo hic. Soluta tempora, error quo beatae nisi quibusdam quidem repellendus velit neque voluptas provident magnam temporibus obcaecati possimus dignissimos suscipit praesentium delectus tempore deleniti ullam doloribus aliquam alias pariatur! Dolor a doloremque amet deserunt. Pariatur non adipisci dolorum nobis eaque fuga quis odit dolorem molestiae labore omnis, deserunt ab soluta saepe consequuntur, quisquam distinctio sint quasi consequatur sequi. Facere fugiat ut velit consequuntur? Odio facere excepturi porro corrupti, accusamus qui quae nemo optio architecto blanditiis error soluta dicta nisi rerum culpa assumenda cum laborum illum necessitatibus nulla dignissimos, at quos velit. Quibusdam ipsam perspiciatis, accusamus quis similique doloribus optio beatae minima repellendus explicabo iure itaque suscipit dolorum perferendis aspernatur odio voluptatibus obcaecati quisquam necessitatibus facere porro dolorem laudantium impedit. Consequatur, magnam? Temporibus, libero quis?",
-    "programs":"Trello, Bugzilla, Jira, Github"
+    "image" : "solticzkironald.PNG"
 }
 
 ]

@@ -6,7 +6,6 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./Utility/GlobalStyle";
 import { lightTheme, darkTheme } from "./components/Themes";
 import Layout from "./layout/Layout";
-import Footer from "./components/Footer";
 import Project from "./components/Project"; 
 
 const App: React.FC = () => {
@@ -32,7 +31,6 @@ const App: React.FC = () => {
           )}
         </Layout>
       </ThemeProvider>
-      <Footer />
     </>
   );
 };

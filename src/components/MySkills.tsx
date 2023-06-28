@@ -36,7 +36,7 @@ const MySkills = () => {
           <p>I have experience with Selenium and now I am learning Cypress using JavaScript</p>
         </div>
         <div className="gridContainer">
-          <h4 className="rightTitle">Frontend Developer</h4>
+          <h4>Frontend Developer</h4>
           <p>I have discovered my passion for Frontend Developming last year and since then I am accumulating knowledge</p>
         </div>
       </Styled_Grid>
@@ -76,6 +76,11 @@ const Styled_Wrapper = styled.div`
   display: flex;
   width: 100%;
   gap: 0.5rem;
+  h1{
+    @media screen and (max-width: 768px) {
+      font-size: 1.6rem;
+    }
+  }
   .logo-icon{
     display: flex;
     justify-content: center;
@@ -86,7 +91,6 @@ const Styled_Wrapper = styled.div`
     height: 70px;
     width: 70px;
     transition: transform 0.1s ease-in-out;
-
     &:hover {
     animation: ${hoverAnimation} 0.5s forwards;
   }
@@ -103,14 +107,25 @@ const Styled_Grid = styled.div`
     h4{
       display: flex;
       justify-content: flex-start;
+      @media screen and (max-width: 768px) 
+      {
+        font-size: 1rem;
+        line-height: 1rem;
+      }
     }
     @media screen and (max-width: 768px) {
         grid-template-columns: 0.5fr;
-        padding-left: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
      .gridContainer{
       p{
         padding-top: 20px;
+        font-size: 1.2rem;
+        @media screen and (max-width: 768px) {
+          font-size: .6rem;
+        }
       }
     }
 `

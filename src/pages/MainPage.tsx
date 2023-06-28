@@ -86,7 +86,6 @@ const Styled_Wrapper = styled.div`
   align-items: center;
   height: 100vh;
   @media screen and (max-width: 768px) {
-    width: auto;
     display: flex;
     align-items: center;
     text-align: center;
