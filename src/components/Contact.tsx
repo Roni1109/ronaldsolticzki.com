@@ -24,7 +24,7 @@ const ContactForm = () => {
   return (
     <>
       <Styled_Wrapper>
-        <Styled_Title>Contact</Styled_Title>
+        <h3>Contact</h3>
         <Form onSubmit={handleSubmit}>
           <Input
             type='text'
@@ -63,16 +63,9 @@ const ContactForm = () => {
 const Styled_Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-`
-
-const Styled_Title = styled.h1`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 35px;
+  gap: 2rem;
 `
 
 const Form = styled.form`

@@ -70,7 +70,10 @@ const Styled_Wrapper = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
+  margin-bottom: 15rem;
 `
 
 export default ProfessionalExperience

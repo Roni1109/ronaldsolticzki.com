@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import { DefaultTheme, ColorsInterface } from "styled-components"
 
-createGlobalStyle<{ theme: ThemeType }>
-
 export const GlobalStyle = createGlobalStyle<DefaultTheme>`
 
     * {
@@ -32,7 +30,7 @@ export const GlobalStyle = createGlobalStyle<DefaultTheme>`
         font-size: 3.5rem;
         line-height: 5rem;
         letter-spacing: 2px;
-        font-weight: 800;
+        font-weight: 700;
     }
    
     h2 {

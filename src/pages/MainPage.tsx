@@ -23,7 +23,9 @@ const Main_Page = () => {
       <Styled_Hero>
         <video src={videoBG} autoPlay loop muted />
 
-        <h3>SOLTICZKI RONALD</h3>
+        <h1>
+          SOLTICZKI <br /> RONALD
+        </h1>
 
         <h6>Quality Assurance Software Tester & Frontend Developer</h6>
       </Styled_Hero>
@@ -48,11 +50,11 @@ const Styled_Hero = styled.div`
   height: 100vh;
   flex-direction: column;
   gap: 1rem;
-  background: cyan;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
   video {
     object-fit: cover;
     position: absolute;
@@ -75,41 +77,8 @@ const Styled_Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: blue;
 
   height: max-content;
-`
-
-const Styled_Button = styled.a`
-  display: flex;
-  width: 20%;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  color: ${primary_color};
-  border: 2px solid ${accent_color};
-  text-decoration: none;
-  border-radius: 70px;
-  &:hover {
-    cursor: pointer;
-    font-size: 1.25rem;
-    width: 21%;
-    transition: 0.1s all ease-in-out;
-    @media screen and (max-width: 768px) {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      width: 175px;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 175px;
-  }
 `
 
 export default Main_Page
