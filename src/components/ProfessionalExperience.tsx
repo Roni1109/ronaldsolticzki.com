@@ -39,7 +39,6 @@ const Styled_Buttons_Container = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-
   gap: 1rem;
   a {
     text-decoration: none;

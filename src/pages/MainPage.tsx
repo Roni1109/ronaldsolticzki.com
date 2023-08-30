@@ -9,8 +9,8 @@ import {
 import bg from "../img/BGillustration.png"
 import MySkills from "../components/MySkills"
 import ProfessionalExperience from "../components/ProfessionalExperience"
-import VideoBG from "../components/VideoBG"
-import MyWork from "../components/MyWork"
+import videoBG from "../img/videoBG.mp4"
+
 import ContactForm from "../components/Contact"
 
 // import Portfolio from "./Portfolio"
@@ -20,18 +20,16 @@ import ContactForm from "../components/Contact"
 const Main_Page = () => {
   return (
     <Styled_Wrapper>
-      <VideoBG />
-      <Styled_Bio>
+      <Styled_Hero>
+        <video src={videoBG} autoPlay loop muted />
+
         <h3>SOLTICZKI RONALD</h3>
 
         <h6>Quality Assurance Software Tester & Frontend Developer</h6>
-      </Styled_Bio>
-
+      </Styled_Hero>
       <MySkills />
 
       <ProfessionalExperience />
-
-      <MyWork />
 
       <ContactForm />
     </Styled_Wrapper>
@@ -46,64 +44,39 @@ const fadeIn = keyframes`
   }
   `
 
-const Styled_Wrapper = styled.div`
+const Styled_Hero = styled.div`
+  height: 100vh;
+  flex-direction: column;
+  gap: 1rem;
+  background: cyan;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: max;
-  background: red;
-  @media screen and (max-width: 768px) {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  justify-content: center;
+  video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.04;
   }
 `
 
-const Styled_Bio = styled.div`
-  p {
-    text-align: center;
-    font-size: 1.5rem;
-    position: relative;
-    z-index: 0;
-    padding-bottom: 20px;
-    span {
-      font-size: 1.6rem;
-    }
-  }
-  h3 {
-    color: white;
-    font-size: 5rem;
-    letter-spacing: 10px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    @media screen and (max-width: 768px) {
-      font-size: 1.7rem;
-      line-height: 2rem;
-      letter-spacing: 5px;
-    }
-  }
-  h6 {
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    animation: 2s ${fadeIn} ease-out;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+const Styled_Wrapper = styled.div`
+  width: 100%;
 
-    @media screen and (max-width: 768px) {
-      font-size: 1rem;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-  }
+  display: flex;
+  // padding: 10rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  height: max-content;
 `
 
 const Styled_Button = styled.a`
