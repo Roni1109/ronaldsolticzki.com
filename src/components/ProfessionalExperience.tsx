@@ -24,7 +24,7 @@ const ProfessionalExperience = () => {
       </Bar>
       <Bar>
         <h5>QA Manual Tester @Skibikecentre</h5>
-        <h6 className='duration'>11.2022 - Present </h6>
+        <h6 className='duration'>11.2022 - 07.2023 </h6>
       </Bar>
       <Bar>
         <h5>Website Manager @Skibikecentre</h5>

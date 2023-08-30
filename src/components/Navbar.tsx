@@ -3,7 +3,7 @@ import styled, { ThemeProvider, useTheme } from "styled-components"
 import img1 from "../img/logo.png"
 import {primary_color} from "../Utility/Colors"
 import {secondary_color_tint} from "../Utility/Colors"
-import { accent_color } from "../Utility/Colors"
+import { accent_color } from "../Utility/Colors" 
 // Importing colors
 import { primary_color_shadow_2 } from "../Utility/Colors"
 import Sidebar from "./Sidebar"

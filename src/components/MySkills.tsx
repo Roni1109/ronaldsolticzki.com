@@ -37,7 +37,7 @@ const MySkills = () => {
         </div>
         <div className="gridContainer">
           <h4>Frontend Developer</h4>
-          <p>I have discovered my passion for Frontend Developming last year and since then I am accumulating knowledge</p>
+          <p>I have discovered my passion for Frontend Development last year and since then I am accumulating knowledge</p>
         </div>
       </Styled_Grid>
         <div className="logo-icon">
