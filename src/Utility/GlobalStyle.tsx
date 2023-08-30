@@ -1,10 +1,9 @@
 import { createGlobalStyle } from "styled-components"
-import { DefaultTheme, ColorsInterface } from 'styled-components';
+import { DefaultTheme, ColorsInterface } from "styled-components"
 
-createGlobalStyle<{theme: ThemeType}>
+createGlobalStyle<{ theme: ThemeType }>
 
-
-export const GlobalStyle = createGlobalStyle <DefaultTheme >`
+export const GlobalStyle = createGlobalStyle<DefaultTheme>`
 
     * {
         box-sizing: border-box;
@@ -33,12 +32,12 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
         font-size: 3.5rem;
         line-height: 5rem;
         letter-spacing: 2px;
-        font-weight: 600;
+        font-weight: 800;
     }
    
     h2 {
         font-size: 2.5rem;
-        font-weight: 500;
+        font-weight: 700;
         letter-spacing: 1px;
     }
     
@@ -46,7 +45,7 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
         font-size:2rem;
         line-height: 1rem;
         letter-spacing: 1px;
-        font-weight: 500;
+        font-weight: 600;
         font-style: normal;
     }
 
@@ -54,7 +53,7 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
       font-size: 2rem;
       line-height: 2rem;
       letter-spacing: 0px;   
-      font-weight: 400;
+      font-weight: 600;
       font-style: normal;
     }
 
@@ -62,14 +61,14 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
       font-size: 1.5rem;
       letter-spacing: 0px;    
       line-height: 40px;
-      font-weight: 400;
+      font-weight: 600;
       font-style: normal;
     }
 
     h6 {
       font-size: 1.2rem;
       letter-spacing: 1.3px;
-      font-weight: 500;
+      font-weight: 600;
       font-style: normal;
 
     } 
@@ -77,8 +76,7 @@ export const GlobalStyle = createGlobalStyle <DefaultTheme >`
     p {
       font-size: 1rem;
       letter-spacing: 1.3px; 
-      font-weight: 300;
+      font-weight: 200;
       font-style: normal;
     }
 `
-

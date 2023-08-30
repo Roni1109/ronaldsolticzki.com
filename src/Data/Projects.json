@@ -1,91 +1,97 @@
-[{
+[
+  {
     "name": "The Sinners",
     "duration": "Apr 2022 - Sept 2022",
-    "description":"The Sinners is a dynamic frontend website exclusively tailored for Dota 2 enthusiasts. It serves as a comprehensive platform that offers a wealth of information and features related to the popular online game. Users can delve into the latest news, patch notes, game updates, hero details, team match results, and leaderboard rankings, all in one centralized hub. With a focus on providing a seamless user experience, the website boasts an intuitive interface and client-side routing, allowing smooth transitions between pages without the need for page reloads. Furthermore, the integration of serverless functions ensures real-time data retrieval and processing, ensuring that users receive up-to-date information at their fingertips.",
-    "image" : "thesinners.png",
-    "tested" : [
-        "Button Component",
-        "Logo transformed in particles on starting page",
-        "Player 3D card",
-        "Heroes page with grid for all heroes, filter by attribute or complexity function, search hero function.",
-        "Hero page with infos about that specific hero",
-        "List with popular and followed teams on Watch Tab on Esports page.",
-        "Load more button on Esports Page / Watch Tab",
-        "[Esports Page - Schedule Tab] Schedule component of last / upcoming matches, sorted by timestamp (time and date).",
-        "Twitch stream player for live games and showcase of last / upcoming matches. [Esports Page / Watch Tab]",
-        "News page",
-        "Latest articles",
-        "Button Component",
-        "Article component",
-        "Customization of scrollbar",
-        "Dynamic info graph with infos about player's games on Dota.",
-        "Contact form",
-        "Top favourite heroes displayed on player's modal",
-        "Comments section on article component",
-        "Comments section on article component"
+    "description": "The Sinners is a dynamic frontend website exclusively tailored for Dota 2 enthusiasts. It serves as a comprehensive platform that offers a wealth of information and features related to the popular online game. Users can delve into the latest news, patch notes, game updates, hero details, team match results, and leaderboard rankings, all in one centralized hub. With a focus on providing a seamless user experience, the website boasts an intuitive interface and client-side routing, allowing smooth transitions between pages without the need for page reloads. Furthermore, the integration of serverless functions ensures real-time data retrieval and processing, ensuring that users receive up-to-date information at their fingertips.",
+    "image": "thesinners.png",
+    "tested": [
+      "Button Component",
+      "Logo transformed in particles on starting page",
+      "Player 3D card",
+      "Heroes page with grid for all heroes, filter by attribute or complexity function, search hero function.",
+      "Hero page with infos about that specific hero",
+      "List with popular and followed teams on Watch Tab on Esports page.",
+      "Load more button on Esports Page / Watch Tab",
+      "[Esports Page - Schedule Tab] Schedule component of last / upcoming matches, sorted by timestamp (time and date).",
+      "Twitch stream player for live games and showcase of last / upcoming matches. [Esports Page / Watch Tab]",
+      "News page",
+      "Latest articles",
+      "Button Component",
+      "Article component",
+      "Customization of scrollbar",
+      "Dynamic info graph with infos about player's games on Dota.",
+      "Contact form",
+      "Top favourite heroes displayed on player's modal",
+      "Comments section on article component",
+      "Comments section on article component"
     ],
-    "bugs" : [
-        "Medusa's Spells Showcase Component bug",
-        "Invoker's Spells Showcase Component",
-        "Grid of tables filtered by a drop-down menu with the Divisions the teams are playing in. [Esports Page / Watch Tab]"
-    ]
-},
-{
+    "bugs": [
+      "Medusa's Spells Showcase Component bug",
+      "Invoker's Spells Showcase Component",
+      "Grid of tables filtered by a drop-down menu with the Divisions the teams are playing in. [Esports Page / Watch Tab]"
+    ],
+    "url": "https://thesinners.netlify.app"
+  },
+  {
     "name": "Gelu Horotan",
     "duration": "Sept 2022 - Jan 2023",
     "description": "geluhorotan.com is a portfolio website created by a junior Frontend Developer that present his work, his projects and his CV. Also on this website you can book a meeting with him from a contact form.",
-    "image" : "geluhorotan.PNG"
-},
-{
+    "image": "geluhorotan.PNG",
+    "url": "https://thesinners.netlify.app"
+  },
+  {
     "name": "Swag Labs",
     "duration": "Jan 2022 - Feb 2022 ",
     "description": "SauceDemo is an engaging and user-friendly e-commerce website designed to simulate a fictional online store for a variety of sauces and related products. Created with a modern and visually appealing interface, SauceDemo provides an interactive platform for users to explore, browse, and purchase a wide range of sauce items, offering a seamless shopping experience.",
-    "image" : "swaglabs.PNG",
-    "tested" : [
-        "Button Component",
-        "Logo transformed in particles on starting page",
-        "Player 3D card",
-        "Heroes page with grid for all heroes, filter by attribute or complexity function, search hero function.",
-        "Hero page with infos about that specific hero",
-        "List with popular and followed teams on Watch Tab on Esports page.",
-        "Load more button on Esports Page / Watch Tab",
-        "[Esports Page - Schedule Tab] Schedule component of last / upcoming matches, sorted by timestamp (time and date).",
-        "Twitch stream player for live games and showcase of last / upcoming matches. [Esports Page / Watch Tab]",
-        "News page",
-        "Latest articles",
-        "Button Component",
-        "Article component",
-        "Customization of scrollbar",
-        "Dynamic info graph with infos about player's games on Dota.",
-        "Contact form",
-        "Top favourite heroes displayed on player's modal",
-        "Comments section on article component",
-        "Comments section on article component"
+    "image": "swaglabs.PNG",
+    "tested": [
+      "Button Component",
+      "Logo transformed in particles on starting page",
+      "Player 3D card",
+      "Heroes page with grid for all heroes, filter by attribute or complexity function, search hero function.",
+      "Hero page with infos about that specific hero",
+      "List with popular and followed teams on Watch Tab on Esports page.",
+      "Load more button on Esports Page / Watch Tab",
+      "[Esports Page - Schedule Tab] Schedule component of last / upcoming matches, sorted by timestamp (time and date).",
+      "Twitch stream player for live games and showcase of last / upcoming matches. [Esports Page / Watch Tab]",
+      "News page",
+      "Latest articles",
+      "Button Component",
+      "Article component",
+      "Customization of scrollbar",
+      "Dynamic info graph with infos about player's games on Dota.",
+      "Contact form",
+      "Top favourite heroes displayed on player's modal",
+      "Comments section on article component",
+      "Comments section on article component"
     ],
-    
-    "bugs" : [
-        "Medusa's Spells Showcase Component bug",
-        "Invoker's Spells Showcase Component",
-        "Grid of tables filtered by a drop-down menu with the Divisions the teams are playing in. [Esports Page / Watch Tab]"
-    ]
-},
-{
+
+    "bugs": [
+      "Medusa's Spells Showcase Component bug",
+      "Invoker's Spells Showcase Component",
+      "Grid of tables filtered by a drop-down menu with the Divisions the teams are playing in. [Esports Page / Watch Tab]"
+    ],
+    "url": "https://thesinners.netlify.app"
+  },
+  {
     "name": "Ski Bike Centre",
     "duration": "Nov 2022 - Present",
-    "description":"Ski Bike Centre is an e-commerce website that is based on the sale of products intended for summer sports, such as bicycles, electric bicycles, scooters and electric scooters, but also for winter sports such as skis, snowboards, clappers, boots and rescue equipment in case of avalanche.",
-    "image" : "skibike.PNG"
-},
-{
+    "description": "Ski Bike Centre is an e-commerce website that is based on the sale of products intended for summer sports, such as bicycles, electric bicycles, scooters and electric scooters, but also for winter sports such as skis, snowboards, clappers, boots and rescue equipment in case of avalanche.",
+    "image": "skibike.PNG",
+    "url": "https://thesinners.netlify.app"
+  },
+  {
     "name": "Bluehouse",
     "duration": "Apr 2023 - May 2023",
-    "description":"Bluehouse is a website that allows you to book a room in Island. Also, you can book a day tour",
-    "image" : "bluehouse.PNG"
-},
-{
+    "description": "Bluehouse is a website that allows you to book a room in Island. Also, you can book a day tour",
+    "image": "bluehouse.PNG",
+    "url": "https://thesinners.netlify.app"
+  },
+  {
     "name": "Ronald Solticzki",
     "duration": "Jan 2023 - Present",
-    "description":"ronaldsolticzki.com is my personal website where I want to present my work experience and my education. On this website you will see the projects that I was working on and you will see what I had to test and what bugs did I found durring testing process.",
-    "image" : "solticzkironald.PNG"
-}
-
+    "description": "ronaldsolticzki.com is my personal website where I want to present my work experience and my education. On this website you will see the projects that I was working on and you will see what I had to test and what bugs did I found durring testing process.",
+    "image": "solticzkironald.PNG",
+    "url": "https://thesinners.netlify.app"
+  }
 ]
