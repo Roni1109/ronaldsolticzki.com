@@ -76,6 +76,7 @@ const Styled_Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   background: blue;
+
   height: max-content;
 `
 
