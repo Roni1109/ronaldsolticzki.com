@@ -36,34 +36,46 @@ const MySkills = () => {
 
         <h4>Frontend Developer</h4>
       </Styled_Grid>
+
       <Styled_Grid>
         <img
           src={
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Jira_Logo.svg/640px-Jira_Logo.svg.png"
+            "https://i.imgur.com/PPEUXNm.png"
           }
           alt='Logo'
         />
-        <img src={cypress} alt='Logo' />
-        <img src={bugzila} alt='Logo' />
+        <img src={
+          "https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png"
+          } 
+          alt='Logo' />
+        <img src={
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Buggie.svg/1200px-Buggie.svg.png"
+          } 
+          alt='Logo' />
         <img
           src={
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Katalon-logo-vector.svg/640px-Katalon-logo-vector.svg.png"
+            "https://seeklogo.com/images/S/selenium-logo-A1B53CEFB0-seeklogo.com.png"
           }
           alt='Logo'
         />
-        <img
-          src={"https://commons.wikimedia.org/wiki/File:Selenium_Logo.png"}
-          alt='Logo'
-        />
-        <img src={html} alt='Logo' />
-        <img src={css} alt='Logo' />
+        <img src={
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Devicon-html5-plain.svg/2048px-Devicon-html5-plain.svg.png"
+          } 
+          alt='Logo' />
+        <img src={
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+          } 
+          alt='Logo' />
         <img
           src={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png"
           }
           alt='Logo'
         />
-        <img src={react} alt='Logo' />
+        <img src={
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+          } 
+          alt='Logo' />
       </Styled_Grid>
     </Styled_Wrapper>
   )

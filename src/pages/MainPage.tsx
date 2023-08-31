@@ -24,7 +24,7 @@ const Main_Page = () => {
         <video src={videoBG} autoPlay loop muted />
 
         <h1>
-          SOLTICZKI <br /> RONALD
+          SOLTICZKI RONALD
         </h1>
 
         <h6>Quality Assurance Software Tester & Frontend Developer</h6>
