@@ -100,7 +100,7 @@ const MenuLink = styled.a`
   height: 100%;
   transition: all 200ms ease-in-out;
   &:hover {
-    color: ${accent_color};
+    color: #008080 ;
     transition: ease-in-out 0.25s all;
   }
 `

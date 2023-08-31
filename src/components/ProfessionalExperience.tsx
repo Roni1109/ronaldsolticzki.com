@@ -42,12 +42,11 @@ const Styled_Buttons_Container = styled.div`
   gap: 1rem;
   a {
     text-decoration: none;
-    color: yellow;
+    color: white;
     letter-spacing: 0.1rem;
     padding: 0.2rem 1rem;
     border-radius: 0.5rem;
-    background: purple;
-  }
+    background-color: #008080  ;  }
 `
 
 const Styled_Experience_Container = styled.div`
@@ -58,7 +57,7 @@ const Styled_Experience_Container = styled.div`
 `
 
 const Styled_Entry = styled.div`
-  background: green;
+  background-color: rgba(5, 8, 11, 0.8);
   padding: 1rem;
   display: flex;
   flex-direction: column;

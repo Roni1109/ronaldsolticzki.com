@@ -32,6 +32,11 @@ const MySkills = () => {
 
         <h4>Frontend Developer</h4>
 
+        <h4>Frontend Developer</h4>
+
+        <h4>Frontend Developer</h4>
+
+
       </Styled_Grid>
 
       <Styled_Grid>
