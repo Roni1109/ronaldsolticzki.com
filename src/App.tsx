@@ -20,7 +20,6 @@ const App: React.FC = () => {
     <>
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <Navbar />
-        <button onClick={themeToggler}>Test</button>
         <GlobalStyle text={""} body={""} />
         <Layout>
           {location && (

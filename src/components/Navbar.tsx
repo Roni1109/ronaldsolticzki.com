@@ -8,17 +8,9 @@ import { accent_color } from "../Utility/Colors"
 import { primary_color_shadow_2 } from "../Utility/Colors"
 import Sidebar from "./Sidebar"
 
-// Dark Theme
-import { DarkMode } from "styled-components"
-import { DefaultTheme } from 'styled-components';
-import { lightTheme, darkTheme } from "./Themes"
 
 
 const Navbar = () => {
-  const [theme, setTheme] = useState('light');
-  const themeToggler = () => {
-    theme === 'light' ? setTheme('dark') : setTheme('light')
-  }
   return (
     <>
       <Sidebar />
@@ -29,7 +21,6 @@ const Navbar = () => {
           <MenuLink href='/portfolio'>Portfolio</MenuLink>
           <MenuLink href='/contact'>Contact</MenuLink>
         </Styled_Menu>
-     <Toggle_Button onClick={themeToggler}>Test </Toggle_Button>
      </Styled_Nav>
      
     </>
@@ -51,18 +42,18 @@ const Styled_Nav = styled.div`
     }
 `
 
-const Styled_Logo = styled.a`
-  padding: 0.5rem 0rem;
-  display: flex;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 2rem;
-  &:hover {
-    color: ${accent_color};
-    transition: 0.3ms all ease-in;
-  }
-`
+// const Styled_Logo = styled.a`
+//   padding: 0.5rem 0rem;
+//   display: flex;
+//   color: #fff;
+//   text-decoration: none;
+//   font-weight: 600;
+//   font-size: 2rem;
+//   &:hover {
+//     color: ${accent_color};
+//     transition: 0.3ms all ease-in;
+//   }
+// `
 
  const Hamburger = styled.div`
 display: none;
@@ -105,8 +96,5 @@ const MenuLink = styled.a`
   }
 `
 
-const Toggle_Button = styled.button`
-
-`
 
 export default Navbar
